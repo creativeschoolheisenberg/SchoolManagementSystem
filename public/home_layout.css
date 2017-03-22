@@ -1,0 +1,84 @@
+body {
+	margin: 0px;
+}
+#header {
+	width: 100%; background: #2E2E2E; 
+	position: fixed; color: white;
+	font-size: 18px; padding: 16px;
+	top: 0px; height: 32px;
+}
+#header, #name {
+	font-weight: bold;
+	float: left;
+}
+#menu a, #menuButton a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font: arial; font-size: 13px;
+}
+@media only screen and (min-width: 600px) {
+	#menu {
+		float: right;
+		display: block;
+		padding-right: 25px;
+
+	}
+	.menuItem {
+		display: inline;	
+	}
+	.menuItem + .menuItem {
+		border-left: 1px solid white;
+		margin-left: 8px; padding-left: 10px;
+	}
+	#menuButton {
+		display: none;
+	}
+}
+@media only screen and (max-width: 599px) {
+	#menuButton {
+		display: inline;
+		float: right;	
+	}
+	#menu {
+		position: absolut; top: 48px;
+		right: 0px; background: black;
+		padding: 16px;
+	}
+	.showMenu {
+		display: block;
+	}
+	.hiddenMenu {
+		display: none;
+	}
+	.menuItem {
+		display: block;
+	}
+	.menuItem + .menuItem {
+		margin-top: 8px;
+	}
+	@media only screen and (max-height: 300px) {
+		#header {
+			display: none;
+		}
+		#footer {
+			display: none;
+		}
+	}
+}
+.content {
+	position: absolute; display: inline-block;
+    text-align: center; width: 100%; top: 64px;
+}
+.backgroundImage {
+	position: absolute;
+	width: 100%; left: auto; right: auto;
+}
+#footer {
+	width: 100%; position: fixed; padding: 8px;
+	bottom: 0px; background: #2E2E2E;
+}
+#footer > p {
+	margin: 6px; color: white;
+	font: bold 12px arial; text-align: center;
+}

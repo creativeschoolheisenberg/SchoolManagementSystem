@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>School Management System</title>
+		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+		<link rel = "stylesheet" type = "text/css" href = "home_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href = "enrolment_layout.css" />
+		<script src = "SMS.js"></script>
+	</head>
+	<body>
+		<div id = "header">
+			<div id = "name">Creative School of San Pedro</div>
+			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
+			<div id = "menu" class = "hiddenMenu">
+				<div class = "menuItem"><a href = "/index">Home</a></div>
+				<div class = "menuItem"><a href = "/acounting">Accounting System</a></div>
+				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
+				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+			</div>
+			<div class = "clear"></div>
+		</div>
+		<div id = "sidebar">
+			<p><a href = "#firstImage" onclick = "fadeChangeImage('imageOne', 'IMG_1.JPG')" class = "button">Registration</a></p>
+			<p><a href = "#secondImage" onclick = "fadeChangeImage('imageTwo', 'IMG_2.JPG')" class = "button">Enrolment</a></p>
+			<p><a href = "#thirdImage" onclick = "fadeChangeImage('imageThree', 'IMG_3.JPG')" class = "button">Students</a></p>
+			<p><a href = "#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class = "button">Payment</a></p>
+			<p><a href = "#" onclick = "popup1('dynamicImage', 'Enter a URL of an image'); return false;" class = "button">Notice</a></p>
+		</div>
+		<div id = "content">
+			<div id = "firstImage" class = "images">
+				<img id = "imageOne" />
+			</div>
+			<div id = "secondImage" class = "images">
+				<img id = "imageTwo" />
+			</div>
+			<div id = "thirdImage" class = "images">
+				<img id = "imageThree" />
+			</div>
+			<div id = "fourthImage" class = "images">
+				<img id = "imageFour" />
+			</div>
+			<div id = "fifthImage" class = "images">
+				<img id = "dynamicImage" />
+			</div>
+		</div>
+		<div id = "footer">
+			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+		</div>
+	</body>
+</html>

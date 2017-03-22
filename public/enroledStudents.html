@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>School Management System: Registration</title>
+		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+		<link rel = "stylesheet" type = "text/css" href = "home_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href = "accounting_layout.css" />
+		<script src = "SMS.js"></script>
+		<script>
+			window.onload = function() {
+				display('registration');
+			};
+		</script>
+	</head>
+	<body>
+		<div id = "header">
+			<div id = "name">Creative School of San Pedro</div>
+			<div id = "menu" class = "hiddenMenu">
+			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
+				<div class = "menuItem"><a href = "/index">Home</a></div>
+				<div class = "menuItem"><a href = "/accounting">Accounting System</a></div>
+				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
+				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+			</div>
+			<div class = "clear"></div>
+		</div>
+		<div id = "sidebar">
+			<p><a href = "/accounting/registration" class = "button">Registration</a></p>
+			<p><a href = "/accounting/enrolment" class = "button">Enrolment</a></p>
+			<p><a href = "/accounting/payment" class = "button">Payment</a></p>
+			<p><a href = "/accounting/enroledStudents" class = "button">Students</a></p>
+			<p><a href = "/accounting/notice" class = "button">Notice</a></p>
+		</div>
+		<div id = "content">
+			<div id = "blank">
+			</div>
+			<div id = "students" class = "images">
+				<form id = "enroledStudsForm">
+					<p></p>
+					<div class = "leftSide">
+						<select class = "textbox">
+							<option value = "byGradeLevel">By Grade Level</option>
+							<option value = "byPlan">By Plan</option>
+						</select>
+						<select id = "studentPlan" class = "textbox">
+						</select>
+					</div>
+					<div class = "rightSide">
+						S.Y.
+						<select id = "syPlan" class = "textbox">
+						</select>
+					</div>
+					<p></p>
+					<div class ="center">
+						<p><h3>ENROLED STUDENTS</h3></p>
+						<div class = "studentsData">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+		</div>
+	</body>
+</html>

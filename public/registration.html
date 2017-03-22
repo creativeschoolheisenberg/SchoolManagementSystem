@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SMS: Registration</title>
+		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+		<link rel = "stylesheet" type = "text/css" href = "home_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href = "accounting_layout.css" />
+		<script src = "SMS.js"></script>
+		<script>
+			window.onload = function() {
+				display('registration');
+				registrationForm();
+			};
+		</script>
+	</head>
+	<body>
+		<div id = "header">
+			<div id = "name">Creative School of San Pedro</div>
+			<div id = "menu" class = "hiddenMenu">
+			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
+				<div class = "menuItem"><a href = "/index">Home</a></div>
+				<div class = "menuItem"><a href = "/accounting">Accounting System</a></div>
+				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
+				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+			</div>
+			<div class = "clear"></div>
+		</div>
+		<div id = "sidebar">
+			<p><a href = "/accounting/registration" class = "button">Registration</a></p>
+			<p><a href = "/accounting/enrolment" class = "button">Enrolment</a></p>
+			<p><a href = "/accounting/payment" class = "button">Payment</a></p>
+			<p><a href = "/accounting/enroledStudents" class = "button">Students</a></p>
+			<p><a href = "/accounting/notice" class = "button">Notice</a></p>
+		</div>
+		<div id = "content">
+			<div id = "blank">
+			</div>
+			<div id = "registration">
+				<form id = "regStudForm">
+					<p><h2>Student Information</h2></p>
+					<div class = "leftSide">
+						Student Number:
+						<input type = "text" id = "studNumber" maxlength = "7" size = "7" class = "textbox" />
+						Grade Level:
+						<select id = "gradeLevel" class = "textbox">
+							<option value = "Nursery">Nursery</option>
+							<option value = "Jr. Prep">Jr. Prep</option>
+							<option value = "Sr. Prep">Sr. Prep</option>
+							<option value = "Grade 1">Grade 1</option>
+							<option value = "Grade 2">Grade 2</option>
+							<option value = "Grade 3">Grade 3</option>
+							<option value = "Grade 4">Grade 4</option>
+							<option value = "Grade 5">Grade 5</option>
+							<option value = "Grade 6">Grade 6</option>
+						</select>
+						Gender:
+						<select id = "gender" class = "textbox">
+							<option value = "male">M</option>
+							<option value = "female">F</option>
+						</select>
+					</div>
+					<div class = "docSide">
+						<h4>Submitted Documents</h4>
+						<input type = "checkbox" name = "checkbox1" value = "birthCert">Birth Certificate
+					</div>
+					<div class = "leftSide">
+						Name of Student:
+						<input type = "text" id = "lName" size = "15" class = "textbox" value = "LASTNAME">
+						<input type = "text" id = "fName" size = "15" class = "textbox" value = "FIRSTNAME">
+						<input type = "text" id = "mi"  size = "5" class = "textbox" value = "M.I.">
+					</div>
+					<div class = "docSide">
+						<input type = "checkbox" name = "checkbox2" value = "form138">Form 138 - E<br>
+						<input type = "checkbox" name = "checkbox3" value = "form137">Form 137 - E
+					</div>
+						Date of Birth:
+						<select onchange = "dateOfBirth()" id = "monthBirth" name = "monthBirth" class = "textbox">
+							<option value = "jan">January</option>
+							<option value = "feb">February</option>
+							<option value = "mar">March</option>
+							<option value = "apr">April</option>
+							<option value = "may">May</option>
+							<option value = "jun">June</option>
+							<option value = "jul">July</option>
+							<option value = "aug">August</option>
+							<option value = "sept">September</option>
+							<option value = "oct">October</option>
+							<option value = "nov">November</option>
+							<option value = "dec">December</option>
+						</select>
+						<select id = "dayBirth" name = "dayBirth" class = "textbox">
+						</select>
+						<select onchange = "dateOfBirth()" id = "yearBirth" name = "yearBirth" class = "textbox">
+						</select>
+						Place of Birth:
+						<input type = "text" id = "placeBirth" name = "placeBirth" size = "20" class = "textbox">
+						Age:
+						<input type = "text" id = "studAge" name = "studAge" size = "2" onfocus = "getBirthDate()" class = "textbox">
+					<p></p>
+						Home Address:
+						<input type = "text" id = "address" size = "55" class = "textbox">
+						Tel. No.:
+						<input type = "text" id = "telNo" size = "13" class = "textbox">
+					<p><h2>Parent Information</h2></p>
+					<div class = "leftSide">
+						Mother's Name:
+						<input type = "text" id = "mlName" size = "15" class = "textbox" value = "LASTNAME">
+						<input type = "text" id = "mfName" size = "15" class = "textbox" value = "FIRSTNAME">
+						<input type = "text" id = "mmi"  size = "5" class = "textbox" value = "M.I.">
+					</div>
+					<div class = "rightSide">
+						Occupation:
+						<input type = "text" id = "mOccupation"  size = "18" class = "textbox">
+					</div>
+					<p></p>
+					<div class = "leftSide">
+						Business Address:
+						<input type = "text" id = "mBusAdd"  size = "43" class = "textbox">
+					</div>
+					<div class = "rightSide">
+						Tel.No.:
+						<input type = "text" id = "mTelNo"  size = "21" class = "textbox">
+					</div>
+					<p></p>
+					<div class = "leftSide">
+						Email Address:
+						<input type = "email" id = "mEmail"  size = "45" class = "textbox">
+					</div>
+					<div class = "rightSide">
+						Cellphone <No class=":"></No>
+						<input type = "text" id = "mCell"  size = "15" class = "textbox">
+					</div>
+					<p></p>
+					<div class = "leftSide">
+						Father's Name:
+						<input type = "text" id = "flName" size = "16" class = "textbox" value = "LASTNAME">
+						<input type = "text" id = "ffName" size = "15" class = "textbox" value = "FIRSTNAME">
+						<input type = "text" id = "fmi"  size = "5" class = "textbox" value = "M.I.">
+					</div>
+					<div class = "rightSide">
+						Occupation:
+						<input type = "text" id = "fOccupation"  size = "18" class = "textbox">
+					</div>
+					<p></p>
+					<div class = "leftSide">
+						Business Address:
+						<input type = "text" id = "fBusAdd"  size = "43" class = "textbox">
+					</div>
+					<div class = "rightSide">
+						Tel.No.:
+						<input type = "text" id = "fTelNo"  size = "21" class = "textbox">
+					</div>
+					<p></p>
+					<div class = "leftSide">
+						Email Address:
+						<input type = "email" id = "fEmail"  size = "45" class = "textbox">
+					</div>
+					<div class = "rightSide">
+						Cellphone No.:
+						<input type = "text" id = "fCell"  size = "15" class = "textbox">
+					</div>
+						<input type = "submit" value = "SUBMIT" id = "submit" class = "formButton">
+						<input type = "reset" value = "RESET" class = "formButton">
+					<p></p>
+				</form>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+		</div>
+	</body>
+</html>
