@@ -2,52 +2,37 @@
 <html>
 	<head>
 		<title>School Management System</title>
+		<link rel="stylesheet" type="text/css" href="common_layout.css" />
 		<link rel="stylesheet" type="text/css" href="home_layout.css" />
 		<script src = "login.js"></script>
 	</head>
 	<script>
-		var token = "";
-		window.onload = function() {
-			var rq = new XMLHttpRequest();
-        	rq.open("GET", "/user", true);
-            rq.onreadystatechange = function() {
-            	if(rq.readyState == 4) {
-                	token = rq.responseText;
-                }
-            }
-        	rq.send();
-		};
-
-		function index() {
-			var rq = new XMLHttpRequest();
-			rq.open("GET", "/index", true);
-			rq.setRequestHeader('Authorization', token);
-			rq.onreadystatechage = function() {
-				if(rq.readyState == 4) {
-					window.location.href = "/index";
-				}
-			}
-			rq.send();
-		}
-	</script>
+			window.onload = function() {
+				document.getElementById('logoutButton').onclick = function() {
+					logout("/logout");
+				};
+			};
+		</script>
 	<body>
-		<div id = "header">
-			<div id = "name">Creative School of San Pedro</div>
-			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
-			<div id = "menu" class = "hiddenMenu">
-				<div class = "menuItem"><a id = "index" href = "/index" onclick='index()'>Home</a></div>
-				<div class = "menuItem"><a href = "/accounting">Accounting System</a></div>
-				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
-				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+		<div class="header">
+			<div id="name">Creative School of San Pedro</div>
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div id="menu" class="hiddenMenu">
+				<div class="menuItem"><a href="/index">Home</a></div>
+				<div class="menuItem"><a href="/admission">Admission</a></div>
+				<div class="menuItem"><a href="/accounting">Accounting</a></div>
+				<div class="menuItem"><a href="/grading">Grading</a></div>
+				<div class="menuItem"><a href="/lcpa">LCPA</a></div>
+				<div class="menuItem"><input type = "button" value = "LOGOUT" id="logoutButton" /></div>
 			</div>
-			<div class = "clear"></div>
+			<div class="clear"></div>
 		</div>
-		<div class = "content">
-			<div class = "backgroundImage">
-				<img id = "backImage" src = "images/miPie.png" />
+		<div class="content">
+			<div class="backgroundImage">
+				<img id="backImage" src = "images/miPie.png" />
 			</div>
 		</div>
-		<div id = "footer">
+		<div class="footer">
 			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
 			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
 			Laguna, (02) 869-1123.</p>
