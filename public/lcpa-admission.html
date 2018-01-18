@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School Management System</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+</head>
+<body>
+	<div class="header">
+		<div id="name">Creative School of San Pedro</div>
+		<div id="menu" class="hiddenMenu">
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/lcpa">LCPA</a></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="/admission/pre-nursery-admission" class="button">Nursery</a></p>
+		<p><a href="/admission/cssp-admission" class="button">CSSP</a></p>
+		<p><a href="/admission/lcpa-admission" class="button">LCPA</a></p>
+		<p><a href="/admission/tutorials" class="button">Tutorials</a></p>
+	</div>
+	<div id="content">
+		<div class="blank">
+		</div>	
+		<div class="pageHeader">
+			<div class="wrapper">
+				<p><h2>Louise's Center for Performing Arts</h2></p>
+			</div>
+		</div>
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="column-15">
+						<label for="lcpacourse">Course</label>
+					</div>
+					<div class="column-30">
+						<select id="lcpacourse" name = "LCPA Course">
+							<option value = "voice">Voice</option>
+							<option value = "piano">Piano</option>
+							<option value = "guitar">Guitar</option>
+							<option value = "drums">Drums</option>
+							<option value = "dance">Dance</option>
+							<option value = "arts">Visual Arts</option>
+							<option value = "violin">Violin</option>
+						</select>
+					</div>
+					<div class="column-15-2">
+						<label for="lcpasched">Schedule</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="lcpasched" name="LCPA Schedule">
+					</div>
+				</div>
+				<hr class="divider">
+				<!-- INSERT DIVIDERE HERE -->
+				<div class="row">
+					<div class="column-15">
+						<label for="csspfname">Name of Student</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="cssplname" name="lastname" placeholder="Student's last name..">
+					</div>
+					<div class="column-30">
+						<input type="text" id="csspfname" name="firstname" placeholder="Student's first name..">
+					</div>
+					<div class="column-25">
+						<input type="text" id="csspmname" name="middlename" placeholder="Student's middle name..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-nlname">Nickname</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-nnick" name="nickname" placeholder="Student's nickname..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-nlname">Date of Birth</label>
+					</div>
+					<div class="column-30">
+						<select onchange = "dateOfBirth()" id="pre-nmonthBirth" name = "monthBirth">
+							<option value = "jan">January</option>
+							<option value = "feb">February</option>
+							<option value = "mar">March</option>
+							<option value = "apr">April</option>
+							<option value = "may">May</option>
+							<option value = "jun">June</option>
+							<option value = "jul">July</option>
+							<option value = "aug">August</option>
+							<option value = "sept">September</option>
+							<option value = "oct">October</option>
+							<option value = "nov">November</option>
+							<option value = "dec">December</option>
+						</select>
+					</div>
+					<div class="column-30">
+						<select id="pre-ndayBirth" name = "dayBirth"></select>
+					</div>
+					<div class="column-25">
+						<select onchange = "dateOfBirth()" id="pre-nyearBirth" name = "yearBirth"></select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-nlname">Place of Birth</label>
+					</div>
+					<div class="column-30">
+						<input type = "text" id="pre-nplaceBirth" name = "placeBirth" placeholder="Place of birth..">
+					</div>
+					<div class="column-15-2">
+						<label for="pre-ngender">Gender</label>
+					</div>
+					<div class="column-30">
+						<select id="pre-ngender" name = "gender">
+							<option value = "male">Male</option>
+							<option value = "female">Female</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-naddress">Address</label>
+					</div>
+					<div class="column-85">
+						<input type="text" id="pre-naddress" name="address" placeholder="Your address..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-ntelno">Telephone</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-ntelno" name="telno" placeholder="Your telephone number..">
+					</div>
+					<div class="column-15-2">
+						<label for="pre-ngender">Cellphone</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-ntelno" name="telno" placeholder="Your cellphone number..">
+					</div>
+				</div>
+				<br>
+				<hr class="divider">
+				<!-- INSERT DIVIDER HERE -->
+				<div class="row">
+					<div class="column-25">
+						<label for="pre-nsiblings">Name of Brothers and Sisters</label>
+					</div>
+					<div class="column-25">
+						<label for="pre-nsiblinggender">Gender</label>
+					</div>
+					<div class="column-25">
+						<label for="pre-nsiblingage">Age</label>
+					</div>
+					<div class="column-25">
+						<label for="pre-nsiblingschool">School</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-25">
+						<input type="text" class="siblings" name="siblings" placeholder="Full name">
+					</div>
+					<div class="column-25">
+						<select class="siblinggender" name = "gender">
+							<option value = "male">Male</option>
+							<option value = "female">Female</option>
+						</select>
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingage" name="sibling age" placeholder="Age">
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingschool" name="sibling school" placeholder="School">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-25">
+						<input type="text" class="siblings" name="siblings" placeholder="Full name">
+					</div>
+					<div class="column-25">
+						<select class="siblinggender" name = "gender">
+							<option value = "male">Male</option>
+							<option value = "female">Female</option>
+						</select>
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingage" name="sibling age" placeholder="Age">
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingschool" name="sibling school" placeholder="School">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-25">
+						<input type="text" class="siblings" name="siblings" placeholder="Full name">
+					</div>
+					<div class="column-25">
+						<select class="siblinggender" name = "gender">
+							<option value = "male">Male</option>
+							<option value = "female">Female</option>
+						</select>
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingage" name="sibling age" placeholder="Age">
+					</div>
+					<div class="column-25">
+						<input type="text" class="siblingschool" name="sibling school" placeholder="School">
+					</div>
+				</div>
+				<br>
+				<hr class="divider">
+				<!-- INSERT DIVIDER HERE -->
+				<div class="row">
+					<div class="column-60">
+						<label>PREVIOUS WORKSHOP/TRAINING ATTENDED</label>
+					</div>
+					<div class="column-25">
+						<label>PLACE</label>
+					</div>
+					<div class="column-15">
+						<label>YEAR</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-60">
+						<input type="text" id="csspprevnschool" name="Previous Nursery">
+					</div>
+					<div class="column-25">
+						<input type="text" id="csspprevnyear" name="Year">
+					</div>
+					<div class="column-15">
+						<input type="text" id="csspprevnyear" name="Year">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-60">
+						<input type="text" id="csspprevnschool" name="Previous Nursery">
+					</div>
+					<div class="column-25">
+						<input type="text" id="csspprevnyear" name="Year">
+					</div>
+					<div class="column-15">
+						<input type="text" id="csspprevnyear" name="Year">
+					</div>
+				</div>
+				<br>
+				<hr class="divider">
+				<br>
+				<!-- INSERT DIVIDER HERE -->
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-nrefer">Referred by</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-nrefer" name="Referred by">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-15">
+						<label for="pre-ndate">Date</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-ndate" name="date" disabled>
+					</div>
+					<div class="column-15-2">
+						<label for="pre-nsignature">Signature</label>
+					</div>
+					<div class="column-30">
+						<input type="text" id="pre-nsignature" name="signature">
+					</div>
+				</div>
+				<div class="row">
+					<input type="submit" class="submitButton" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+.sidebar {
+	left: 0px;
+	width: 15%;
+}
+
+.sidebar > p {
+	text-align: center;
+	font-size: 75%;
+}
+
+#content {
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	margin-bottom: 24px; margin-top: 0px;
+	font-family: arial;
+}
+
+p {
+	font: Arial; font-size: 16px; font-weight: bold; color: #003A21;
+}
+
+.blank {
+	display: block;
+}
+
+@media only screen and (min-width: 600px) {
+	#content {
+		top: 64px; bottom: 32px;
+		display: block;
+		left: 15%;
+		position: fixed;
+		overflow: scroll; overflow-x: hidden;
+	}
+	.sidebar {
+		display: block;
+		position: fixed;
+		top: 64px;
+		width: 15%;
+		bottom: 32px;
+		background: #787878;
+	}
+	a.button {
+		width: 50%;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	#content {
+		position: relative;
+		margin: auto;
+		padding: 15px;
+	}
+	.sidebar {
+		position: relative;
+		left: 0; right: 0;
+	}
+	a.button {
+		display: block;
+	}
+}
+
+.pageHeader {
+	display: table;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+}
+
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	background: #333;
+	margin: 5px 10px;
+	border-radius: 4px;
+	position: relative;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.column-05 {
+	text-align: right;
+	float: left;
+	width: 5%;
+	margin-top: 6px;
+}
+
+.column-10 {
+	text-align: right;
+	float: left;
+	width: 10%;
+	margin-top: 6px;
+}
+
+.column-15 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+
+.column-15-2 {
+	float: left;
+	width: 15%;
+	margin-top:6px;
+	margin-left: 10%;
+}
+
+.column-20 {
+	float: left;
+	width: 20%;
+	margin-top: 6px;
+}
+
+.column-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.column-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.column-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.column-60 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+.column-60-2 {
+    float: left;
+	width: 43%;
+	margin-left: 17%;
+    margin-top: 6px;
+}
+
+.column-70 {
+	float: left;
+	width: 70%;
+	margin-top: 6px;
+}
+
+.column-85 {
+    float: left;
+    width: 85%;
+    margin-top: 6px;
+}
+
+.column-100 {
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+	clear: both;
+}
+
+hr.divider { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}

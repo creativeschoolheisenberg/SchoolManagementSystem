@@ -3,8 +3,9 @@
 	<head>
 		<title>SMS: Enrolment</title>
 		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
-		<link rel = "stylesheet" type = "text/css" href = "home_layout.css" />
-		<link rel = "stylesheet" type = "text/css" href = "accounting_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+		<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
 		<script src = "SMS.js"></script>
 		<script>
 			window.onload = function() {
@@ -14,137 +15,273 @@
 		</script>
 	</head>
 	<body>
-		<div id = "header">
-			<div id = "name">Creative School of San Pedro</div>
-			<div id = "menu" class = "hiddenMenu">
-			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
-				<div class = "menuItem"><a href = "/index">Home</a></div>
-				<div class = "menuItem"><a href = "/accounting">Accounting System</a></div>
-				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
-				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+		<div class="header">
+			<div id="name">Creative School of San Pedro</div>
+			<div id="menu" class="hiddenMenu">
+				<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+				<div class="menuItem"><a href="/index">Home</a></div>
+				<div class="menuItem"><a href="/admission">Admission</a></div>
+				<div class="menuItem"><a href="/accounting">Accounting</a></div>
+				<div class="menuItem"><a href="/grading">Grading</a></div>
+				<div class="menuItem"><a href="/lcpa">LCPA</a></div>
 			</div>
-			<div class = "clear"></div>
+			<div class="clear"></div>
 		</div>
-		<div id = "sidebar">
-			<p><a href = "/accounting/registration" class = "button">Registration</a></p>
-			<p><a href = "/accounting/enrolment" class = "button">Enrolment</a></p>
-			<p><a href = "/accounting/payment" class = "button">Payment</a></p>
-			<p><a href = "/accounting/enroledStudents" class = "button">Students</a></p>
-			<p><a href = "/accounting/notice" class = "button">Notice</a></p>
+		<div class="sidebar">
+			<p><a href="/accounting/registration" class="button">Registration</a></p>
+			<p><a href="/accounting/enrolment" class="button">Enrolment</a></p>
+			<p><a href="/accounting/payment" class="button">Payment</a></p>
+			<p><a href="/accounting/enroled-students" class="button">Students</a></p>
+			<p><a href="/accounting/notice" class="button">Notice</a></p>
+			<p><a href="/accounting/fees" class="button">Fees</a></p>
 		</div>
-		<div id = "content">
-			<div id = "blank">
+		<div id="content">
+			<div class="blank">
+			</div>	
+			<div class="pageHeader">
+				<div class="wrapper">
+					<p><h2>ENROLMENT</h2></p>
+				</div>
 			</div>
-			<div id = "enrolment">
-				<form id = "enrolStudForm">
-						<p><h2>Enrol a Student</h2></p>
-						<div class = "leftSide">
-							Student Number:
-							<input type = "text" name = "studNumber" id = "searchStudNumber" maxlength = "7" size = "9" class = "textbox">
-							<input type = "button" value = "SEARCH" id = "searchStud" class = "searchButton">
-							&nbsp&nbsp&nbsp&nbsp&nbspS.Y.:
-							<input type = "text" id = "schoolYear" size = "9" class = "textbox">
+			<div class="container">
+				<form>
+					<div class="row">
+						<div class="column-15">
+							<label for="studno">Student Number</label>
 						</div>
-						<p></p>
-						<div class = "rightSide">
-							Reg. No.:
-							<input type = "text" name = "regNo" size = "14" class = "textbox">
-							<p></p>
-							Date:
-							<input type = "text" id = "currentDate" class = "textbox">
+						<div class="column-25">
+							<input type="text" id="studno" name="Student Number">
 						</div>
-						<p></p>
-						<div class = "leftSide">
-							Name of Student:
-							<input type = "text" name = "studLastName" id = "studLastName" size = "20" class = "textbox">
-							<input type = "text" name = "studFirstName" id = "studFirstName" size = "20" class = "textbox">
-							<input type = "text" name = "studMI" id = "studMI" size = "2" class = "textbox">&nbsp&nbsp&nbsp&nbsp
+						<div class="column-30">
+							<input type = "button" value = "SEARCH" id="searchstud" class="accbtn">
 						</div>
-						<div class = "rightSide">
-							Grade Level:
-							<input type = "text" name = "gradeLevel" id = "gradeLevel" size = "7" class = "textbox">
-						</select>
+						<div class="column-10">
+							<label for="gradelevel">Level</label>
 						</div>
-						<p></p>
-							Mode of Payment
-							<input type = "radio" name = "mopCheck" value = "mop">Plan A
-							<input type = "radio" name = "mopCheck" value = "mop">Plan B
-							<input type = "radio" name = "mopCheck" value = "mop">Plan C
-							<input type = "radio" name = "mopCheck" value = "mop">Plan D
-						<p></p>
-					<div id = "fees">
-						<div class = "leftSide">
-							<h4>TOTAL AMOUNT DUE FOR THE YEAR..............................</h4>
+						<div class="column-15">
+							<input type = "text" name = "Grade Level" id="gradelevel">
 						</div>
-						<div class = "rightSide">
-							<h4><input type = "text" name = "totalDue" size = "15" class = "textbox"></h4>
+					</div>
+					<br>
+					<hr class="divider">
+					<br>
+					<div class="row">
+						<div class="column-10">
+							<label for="regno">Reg. No</label>
 						</div>
-						<p></p>
-						<div class = "feesLSide">
-							Tuition Fee................................................................................
+						<div class="column-15">
+							<input type = "text" id="regno" name = "Registration Number">
 						</div>
-						<div class = "rightSide">
-							<input type = "text" name = "tuitionFee" size = "15" class = "textbox">
+						<div class="column-10"></div>
+						<div class="column-10">
+							<label for="schoolyear">S.Y.</label>
 						</div>
-						<div class = "feesLSide">
-							Miscellaneous Fees...................................................................
+						<div class="column-15">
+							<input type = "text" id="schoolyear" name="School Year">
 						</div>
-						<div class = "rightSide">
-							<input type = "text" name = "miscFee" size = "15" class = "textbox">
+						<div class="column-10"></div>
+						<div class="column-10">
+							<label for="currentdate">Date</label>
 						</div>
-						<div class = "breakdown">
-							Registration Fee<br>Library Fee<br>Athletic Fee<br>Medical and Dental Fee<br>Classroom Materials<br>Development and Maintenance<br>Computer and Internet<br>Audio Visual<br>Insurance Fee<br>Laboratory<br>
+						<div class="column-15">
+							<input type = "text" id="currentdate" name="Date">
 						</div>
-						<div class = "feesLSide">
-							Other Fees................................................................................
+					</div>
+					<div class="row">
+						<div class="column-15">
+							<label for="pre-nfname">Name of Student</label>
 						</div>
-						<div class = "rightSide">
-							<input type = "text" name = "otherFee" size = "15" class = "textbox">
+						<div class="column-30">
+							<input type="text" id="pre-nlname" name="lastname" placeholder="Student's last name..">
 						</div>
-						<div class = "breakdown">
-							Energy Fee<br>Educational Tour(PARTIAL)<br>
+						<div class="column-30">
+							<input type="text" id="pre-nfname" name="firstname" placeholder="Student's first name..">
 						</div>
-						<p></p>
-						<div class = less>
-							<p>Less:</p>
-							<div class = "lessLeft">
-								RESERVATION............................................................
-							</div>
-							<div class = "lessRight">
-								<input type = "text" name = "reservation" size = "15" class = "textbox">
-							</div>
-							<div class = "lessLeft">
-								DISCOUNT...................................................................
-							</div>
-							<div class = "lessRight">
-								<input type = "text" name = "discount" size = "15" class = "textbox">
-							</div>
+						<div class="column-25">
+							<input type="text" id="pre-nmname" name="middlename" placeholder="Student's middle name..">
 						</div>
-						<p></p>
-						<div class = "leftSide">
-							<h4>TOTAL (Upon Enrolment)........................................................</h4>
+					</div>
+					<br>
+					<hr class="divider">
+					<div class="row">
+						<div class="column-15">
+							<label>Mode of Payment</label>
 						</div>
-						<div class = "rightSide">
-							<h4><input type = "text" name = "totalUE" size = "15" class = "textbox"></h4>
+					</div>
+					<div class="row">
+						<div class="column-20">
+							<input type="checkbox" id="plana" name="Plan A" value="Plan A">
+							<label for="plana">Plan A</label>
 						</div>
-						<div class = "leftSide">
-							<h4>Books and Notebooks..................................................................</h4>
+						<div class="column-20">
+							<input type="checkbox" id="planb" name="Plan B" value="Plan B">
+							<label for="planb">Plan B</label>
 						</div>
-						<div class = "rightSide">
-							<h4><input type = "text" name = "bksNtbks" size = "15" class = "textbox"></h4>
+						<div class="column-20">
+							<input type="checkbox" id="planc" name="Plan C" value="Plan C">
+							<label for="planc">Plan C</label>
 						</div>
-						<br>
-						<div id = "agreement">
-							<p>&nbsp&nbsp&nbsp&nbsp&nbspI hereby agree to pay this school the total fees for my child's enrolment as per agreement of payment stipulated above.</p>
+						<div class="column-20">
+							<input type="checkbox" id="pland" name="Plan D" value="Plan D">
+							<label for="pland">Plan D</label>
+						</div>
+						<div class="column-20">
+							<input type="checkbox" id="plane" name="Plan E" value="Plan E">
+							<label for="plane">Plan E</label>
+						</div>
+					</div>
+					<br>
+					<hr class="divider">
+					<br>
+					<div class="row">
+						<div class="column-70">
+							<label for="totaldue">TOTAL AMOUNT DUE FOR THE YEAR</label>
+						</div>
+						<div class="column-30">
+							<input type = "text" id="totaldue">
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-05"></div>
+						<div class="column-30">
+							<label for="tuitionfee">Tuition Fee</label>
+						</div>
+						<div class="column-05"></div>
+						<div class="column-30"></div>
+						<div class="column-30">
+							<input type = "text" id="tuitionfee">
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-05"></div>
+						<div class="column-30">
+							<label for="miscfee">Miscellaneous Fees</label>
+						</div>
+						<div class="column-05"></div>
+						<div class="column-30"></div>
+						<div class="column-30">
+							<input type = "text" id="miscfee">
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Registration Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Library Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Athletic Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Medical and Dental Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Classroom Materials</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Development and Maintenance</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Computer and Internet</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Audio Visual</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Insurance Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-05"></div>
+						<div class="column-30">
+							<label for="otherfee">Other Fees</label>
+						</div>
+						<div class="column-05"></div>
+						<div class="column-30"></div>
+						<div class="column-30">
+							<input type = "text" id="otherfee">
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Energy Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-10"></div>
+						<div class="column-30">
+							<label>Educational Tour (PARTIAL)</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column-25"></div>
+						<div class="column-25">
+							<label for="reservation">Less: RESERVATION</label>
+						</div>
+						<div class="column-25">
+							<input type = "text" id="reservation">
+						</div>
+						<div class="column-25"></div>
+					</div>
+					<div class="row">
+						<div class="column-25"></div>
+						<div class="column-25">
+							<label for="discount">Discount</label>
+						</div>
+						<div class="column-25">
+							<input type = "text" id="discount">
+						</div>
+						<div class="column-25"></div>
+					</div>
+					<br>
+					<hr class="divider">
+					<br>
+					<div class="row">
+						<div class="column-70">
+							<label for="totalue">TOTAL UPON ENROLMENT</label>
+						</div>
+						<div class="column-30">
+							<input type = "text" id="totalue">
 						</div>
 					</div>
 				</form>
+				<div class="row">
+					<button id="print" class="accbtn">print</button>
+					<button id="enrol" class="accbtn">enrol</button>
+				</div>
 			</div>
 		</div>
-		<div id = "footer">
+		<div class="footer">
 			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
-			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
-			Laguna, (02) 869-1123.</p>
+				931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+				Laguna, (02) 869-1123.</p>
 		</div>
 	</body>
 </html>

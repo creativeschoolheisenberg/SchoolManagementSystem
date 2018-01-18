@@ -1,0 +1,105 @@
+a.button, .submitButton, .gradeLevelButton .glbtn, .accbtn {
+	background: -webkit-linear-gradient(top, #208D93, #6BEBFF);
+	background: -moz-linear-gradient(top, #208D93, #6BEBFF);
+	background: -ms-linear-gradient(top, #208D93, #6BEBFF);
+	background: -o-linear-gradient(top, #208D93, #6BEBFF);
+	background: linear-gradient(bottom, #208D93, #6BEBFF);
+	border-radius: 8px; border: 1px solid #444444;
+	box-shadow: 0px 1px 1px #888888 inset, 1px 1px 3px #222222;
+	color: white; text-decoration: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-family: arial;
+}
+
+a.button:hover, .submitButton:hover, .gradeLevelButton .glbtn:hover {
+	background: #AB9995; color: white;
+}
+
+a.button:active, .submitButton:active, .gradeLevelButton .glbtn:active, .accbtn:active {
+	background: #AB9995;
+}
+
+.submitButton {
+	margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown a:hover {
+	background: white; color: black;
+}
+
+.gradeLevelButton {
+	margin-top: 16px;
+	margin-left: 16px;
+	text-align: center;
+}
+
+.glbtn {
+	margin-left: 4px;
+	box-shadow: 0px 1px 1px #888888 inset, 1px 1px 3px #222222;
+}
+
+/* .glbtn {
+    background-color: #b88282;
+    color: #b88282;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+} */
+
+#searchstud {
+	margin-left: 10px;
+	padding: 12px 16px 12px 16px;
+}
+
+.accbtn {
+    border: none;
+    border-radius: 4px;
+	cursor: pointer;
+}
+
+#update, #enrol, #compute, #edit, #print, #csspregister {
+	margin-top: 20px;
+	float: right;
+}
+
+.updateContainer {
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-left: 4px;
+    display: none;
+    position: absolute;
+    background-color: #AB9995;
+    min-width: 120px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	font-size: 85%;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+	display: block;
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMS: Fees</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "fees.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div id="name">Creative School of San Pedro</div>
+		<div id="menu" class="hiddenMenu">
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/lcpa">LCPA</a></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="/accounting/registration" class="button">Registration</a></p>
+		<p><a href="/accounting/enrolment" class="button">Enrolment</a></p>
+		<p><a href="/accounting/payment" class="button">Payment</a></p>
+		<p><a href="/accounting/enroled-students" class="button">Students</a></p>
+		<p><a href="/accounting/notice" class="button">Notice</a></p>
+		<p><a href="/accounting/fees" class="button">Fees</a></p>
+	</div>
+	<div id="content">
+		<div class="blank">
+		</div>
+		<div class="gradeLevelButton">
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Nursery')" class="glbtn">Nursery</button>
+				<div id="Nursery" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Jr. Prep')" class="glbtn">Jr. Prep</button>
+				<div id="Jr. Prep" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Sr. Prep')" class="glbtn">Sr. Prep</button>
+				<div id="Sr. Prep" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 1')" class="glbtn">Grade 1</button>
+				<div id="Grade 1" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 2')" class="glbtn">Grade 2</button>
+				<div id="Grade 2" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 3')" class="glbtn">Grade 3</button>
+				<div id="Grade 3" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 4')" class="glbtn">Grade 4</button>
+				<div id="Grade 4" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 5')" class="glbtn">Grade 5</button>
+				<div id="Grade 5" class="dropdown-content">
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick = "dropDownMenu('Grade 6')" class="glbtn">Grade 6</button>
+				<div id="Grade 6" class="dropdown-content">
+				</div>
+			</div>
+		</div>
+		<div class="pageHeader">
+			<div class="wrapper">
+				<p id="installmentHeader">Installment plan</p>
+			</div>
+		</div>
+		<div class="container">
+			<form id="formtable">
+				<div class="row">
+					<div class="column-10"></div>
+					<div class="column-25">
+						<label for="tuition">Tuition Fee</label>
+					</div>
+					<div class="column-30"></div>
+					<div class="column-25">
+						<input type = "text" id="tuition" disabled/>
+					</div>
+					<div class="column-10"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="instruction">Instructional Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="instruction" disabled />
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="mi">Multiple Inteligence Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="mi" disabled />
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<br>
+				<hr class="divider">
+				<br>
+				<div class="row">
+					<div class="column-10"></div>
+					<div class="column-25">
+						<label for="miscellaneous">Miscellaneous</label>
+					</div>
+					<div class="column-30"></div>
+					<div class="column-25">
+						<input type = "text" id="miscellaneous" disabled/>
+					</div>
+					<div class="column-10"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="regfee">Registration Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="regfee" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="libfee">Library Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="libfee" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="athfee">Athletic Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="athfee" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="classmat">Classroom Materials</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="classmat" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="computer">Computer and Internet Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="computer" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="avr">Audio Visual</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="avr" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="medical">Medical and Dental Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="medical" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="id">ID</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="id" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="insurance">Insurance Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="insurance" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="development">Development and Maintenance</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="development" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<br>
+				<hr class="divider">
+				<br>
+				<div class="row">
+					<div class="column-10"></div>
+					<div class="column-25">
+						<label for="others">Others</label>
+					</div>
+					<div class="column-30"></div>
+					<div class="column-25">
+						<input type = "text" id="others" disabled/>
+					</div>
+					<div class="column-10"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="energy">Energy Fee</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="energy" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="eductour">Educational Tour (PARTIAL)</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="eductour" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="schoolprog">School Programs</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="schoolprog" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<div class="row">
+					<div class="column-25"></div>
+					<div class="column-25">
+						<label for="books">Books and Notebooks</label>
+					</div>
+					<div class="column-25">
+						<input type = "text" id="books" disabled/>
+					</div>
+					<div class="column-25"></div>
+				</div>
+				<br>
+				<hr class="divider">
+				<br>
+				<div class="row">
+					<div class="column-10"></div>
+					<div class="column-25">
+						<label for="total">Total</label>
+					</div>
+					<div class="column-10"></div>
+					<div class="column-25">
+						<input type = "text" id="total" disabled />
+					</div>
+					<div class="column-30">
+					</div>
+				</div>
+			</form>
+			<div>
+				<button onclick = "updateFees()" id="update" class="accbtn" disabled>Update</button>
+				<button onclick="totalFees()" id="compute" class="accbtn" disabled>compute</button>
+				<button onclick = "enableBtn()" id="edit" class="accbtn">Edit</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>
+			Copyright &copy; 2016, Creative School of San Pedro<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.
+		</p>
+	</div>
+	</body>
+	</html>
