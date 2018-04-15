@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>School Management System</title>
+		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+		<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+		<link rel = "stylesheet" type = "text/css" href="login-layout.css" />
+		<script src = "login.js"></script>
+	</head>
+	<script>
+			window.onload = function() {
+				document.getElementById('submitButton').onclick = function() {
+					signup("/signup");
+				};
+			};
+		</script>
+	<body>
+		<div class="header">
+			<div id="name">Centre for Creative Learners</div>
+		</div>
+		<!-- 	
+			Create a login for different types of users
+			Guest - for student applicants that would perform the input of information
+			Registrar - responsible for usage of the system
+			Teachers - for the grading system part
+			Admin - super user!
+		-->
+		<div id="content">
+			<div id="login"><p>Create account</p></div>
+			<div class = "control">
+				<div class="left"><input type = "text" id="firstname" placeholder="FIRSTNAME"/></div>
+				<div class="left"><input type = "text" id="lastname" placeholder="LASTNAME"/></div>
+			</div>
+			<div class = "control">
+				<div class="left"><input type = "text" id="username" placeholder="USERNAME"/></div>
+				<div class="left"><input type = "password" id="password" placeholder="PASSWORD"/></div>
+			</div>
+			<div class = "account">
+				<select id="accounttype" name = "Account Type">
+					<option value ="" selected>Choose Account Type</option>
+					<option value = "teacher">Teacher</option>
+					<option value = "guest">Guest</option>
+					<option value = "registrar">Registrar</option>
+					<option value = "game">AcademicChallenge</option>
+				</select>
+			</div>
+			<div class= "submit">
+				<input type="button" value="SUBMIT" id="submitButton" class="button" />
+			</div>
+		</div>
+		<div class="footer">
+			<p>Copyright &copy; 2016, Centre for Creative Learners<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+		</div>
+	</body>
+</html>

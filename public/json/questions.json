@@ -1,0 +1,1730 @@
+[
+    {
+        "level": "Grade1",
+        "subject": "MATH1",
+        "question": "Which among the numbers below are 1 more than 15?",
+        "image": "",
+        "choices": {
+            "a": "a. 19",
+            "b": "b. 17",
+            "c": "c. 16"
+        },
+        "answer": "c. 16"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH2",
+        "question": "Which addition sentence below has a sum of 9?",
+        "image": "",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH3",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "image": "",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH4",
+        "question": "Which number are 2 more than 37?",
+        "image": "",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": "a. 39"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH5",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "image": "",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE1",
+        "question": "The three main parts of the body are?",
+        "image": "",
+        "choices": {
+            "a": "a. Head, trunk and limbs",
+            "b": "b. Eyes, head and hands",
+            "c": "c. Limbs, trunk and nose"
+        },
+        "answer": "a. Head, trunk and limbs"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE2",
+        "question": "It is the ability to do work?",
+        "image": "",
+        "choices": {
+            "a": "a. energy",
+            "b": "b. force",
+            "c": "c. heat"
+        },
+        "answer": "a. energy"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE3",
+        "question": "A bottle contains water. What phase of matter does the bottle belong to?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Solid"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE4",
+        "question": "What do you call the gas the comes out from the smoke of a car?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carbon monoxide"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE5",
+        "question": "What is force?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "The push or pull upon an object."
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCECLINCHER",
+        "question": "What is the biggest flower?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Rafflesia"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKA1",
+        "question": "Saang lugar sa paaralan makikita ang doktor, nars at dentista?",
+        "image": "",
+        "choices": {
+            "a": "a. Klinika",
+            "b": "b. Kantina",
+            "c": "c. Silid-Aklatan"
+        },
+        "answer": "a. Klinika"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKA2",
+        "question": "Tama o Mali: Igalang ang guro at mga kaklase.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKA3",
+        "question": "Ano ang tawag sa silid na kinalalagyan ng maraming aklat para mabasa ng mga bata?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Silid-Aklatan"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKA4",
+        "question": "Ito ang tawag sa mga batang pumapasok sa paaralan.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "mag-aaral"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKA5",
+        "question": "Anong taon itinatag ang Centre for Creative Learners of San Pedro (Creative)?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Itinatag ito noong 1995"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SIBIKACLINCHER",
+        "question": "Tama o Mali: Mag-ingay sa loob ng silid-aralan.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mali"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING1",
+        "question": "Noun: A group of individuals living under one roof and usually under one head",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "family"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING2",
+        "question": "Noun: A unit of time that is equal to 12 months or 365 or sometimes 366 days.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "year"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING3",
+        "question": "Noun: a period of time that lasts about four weeks or 30 days.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "month"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING4",
+        "question": "Noun: the day of the week between Tuesday and Thursday.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Wednesday"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING5",
+        "question": "Noun: An area of land that rises very high above the land around it and that is higher than a hill.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "mountain"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Noun: The state of being friends: the relation between friends.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "friendship"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH1",
+        "question": "How many months does 1 year have?",
+        "image": "",
+        "choices": {
+            "a": "a. 30",
+            "b": "b. 7",
+            "c": "c. 12"
+        },
+        "answer": "c. 12"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH2",
+        "question": "What is the sum if you add 45 to 55?",
+        "image": "",
+        "choices": {
+            "a": "a. 100",
+            "b": "b. 120",
+            "c": "c. 90"
+        },
+        "answer": "a. 100"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH3",
+        "question": "What is the answer if you multiply 9 by 8?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "72"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH4",
+        "question": "How many months are there in 5 years?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "60 months"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH5",
+        "question": "What is the answer if you multiply 136 by 3?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "408"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATHCLINCHER",
+        "question": "What time is it?",
+        "image": "clock.jpg",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "1:50"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE1",
+        "question": "All of the following are \"Grow Food\" except _____",
+        "image": "",
+        "choices": {
+            "a": "a. Milk",
+            "b": "b. Egg",
+            "c": "c. Cereals"
+        },
+        "answer": "c. Cereals"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE2",
+        "question": "Matter has mass and takes up _____",
+        "image": "",
+        "choices": {
+            "a": "a. Heat",
+            "b": "b. Light",
+            "c": "c. Space"
+        },
+        "answer": "c. Space"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE3",
+        "question": "Part of the plant that protects the developing seeds.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Fruit"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE4",
+        "question": "Flashlight is an artificial source of light. What do you mean by artificial?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Man made"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE5",
+        "question": "What do you call the gas that humans breathe out?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carbon dioxide"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCECLINCHER",
+        "question": "Who discovered that white light consist or rays of different colors (ROYGBIV)?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKA1",
+        "question": "Anong uri ng yaman nabibililang ang mga gulay at prutas?",
+        "image": "",
+        "choices": {
+            "a": "a. Yamang Lupa",
+            "b": "b. Yamang Tao",
+            "c": "c. Yamang Tubig"
+        },
+        "answer": "a. Yamang Lupa"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKA2",
+        "question": "Tama o Mali: Ang pulis ang nagpapanatili ng katahimikan at kaayusan ng paligid.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKA3",
+        "question": "Anung uri ng likas na yaman ang ipinapakita sa paglikha ng mga nakakaaliw na musika?",
+        "image": "",
+        "choices": {
+            "a": "a. Yamang tubig",
+            "b": "b. Yamang tao",
+            "c": "c. Yamang lupa"
+        },
+        "answer": "b. Yamang tao"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKA4",
+        "question": "Anong uri ng hanap-buhay ang tinutukoy: Ako ay pumunta sa data o lawa upang manghuli ng mga isda at iba pang halamang-dagat na kailangan ng mga tao.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mangingisda"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKA5",
+        "question": "Anong uri ng likas na yaman ang mga gulay at prutas?",
+        "image": "",
+        "choices": {
+            "a": "a. Yamang tubig",
+            "b": "b. Yamang tao",
+            "c": "c. Yamang lupa"
+        },
+        "answer": "c. Yamang lupa"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SIBIKACLINCHER",
+        "question": "Ako ang nagtuturo ng mga bagong kaalaman at kabutihang asal sa mga bata sa loob ng paaralan. Sino ako?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Guro"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING1",
+        "question": "Noun: The day after today",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "tomorrow"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING2",
+        "question": "Noun: Something that is very special, important, or valuable.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "treasure"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING3",
+        "question": "Noun: Two vowel sounds joined in one syllable to form one speech sound.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "diphthongs"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING4",
+        "question": "Noun: A particular person's way of pronouncing a word or the words of a language.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "pronunciation"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING5",
+        "question": "Noun: A feeling of eager enthusiasm and interest.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "excitement"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Verb: To move air into and out of your lungs. To inhale and exhale",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "breathe"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH1",
+        "question": "What is the product of 245 by 6?",
+        "image": "",
+        "choices": {
+            "a": "a. 1470",
+            "b": "b. 1570",
+            "c": "c. 1670"
+        },
+        "answer": "a. 1470"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH2",
+        "question": "What is the quotient if you divide 749 by 7?",
+        "image": "",
+        "choices": {
+            "a": "a. 108",
+            "b": "b. 117",
+            "c": "c. 107"
+        },
+        "answer": "c. 107"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH3",
+        "question": "Write the Roman Numerals MMMCMLXXVIII in Hindu-Arabic Numeral.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "3,978"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH4",
+        "question": "What Property of Multiplication is shown in this given equation, 15 x 2= (10 x 2) + (5 x 2)?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Distributive Property of Multiplication"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH5",
+        "question": "Solve: 16L 456mL - 12L 765mL = _____",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "3L 691mL"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATHCLINCHER",
+        "question": "Give the first five multiples of 15.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "15, 30, 45, 60, 75"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE1",
+        "question": "The two openings or holes of the nose is called?",
+        "image": "",
+        "choices": {
+            "a": "a. Nostril",
+            "b": "b. Nasal Cavity",
+            "c": "c. Pores"
+        },
+        "answer": "a. Nostril"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE2",
+        "question": "Any change in position with respect to its reference point is called?",
+        "image": "",
+        "choices": {
+            "a": "a. friction",
+            "b": "b. energy",
+            "c": "c. motion"
+        },
+        "answer": "c. motion"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE3",
+        "question": "What are the three phases of matter?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "solid, liquid, and gas"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE4",
+        "question": "Give one example of fossil fuel.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "coal / petroleum / natural gas"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE5",
+        "question": "What kind of vertebrate does the whale belong to?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mammals"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCECLINCHER",
+        "question": "Who discovered the gravitational force?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKA1",
+        "question": "Ano ang dialekto ng mga taga Cebu?",
+        "image": "",
+        "choices": {
+            "a": "a. Cebuano",
+            "b": "b. Ilonggo",
+            "c": "c. Ilocano"
+        },
+        "answer": "a. Cebuano"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKA2",
+        "question": "Opinyon o Katotohanan: Ang mga larong Pilipino ay para sa kabataan lamang.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Opinyon"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKA3",
+        "question": "Ito ay tumutukoy sa paggalaw kasunod ng musika na maaring ginagamit na ritwal o pagdiriwang?",
+        "image": "",
+        "choices": {
+            "a": "a. Awit",
+            "b": "b. Tradisyon",
+            "c": "c. Sayaw"
+        },
+        "answer": "c. Sayaw"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKA4",
+        "question": "Ano ang tawag sa pista na ipinagdiriwang sa Cebu?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sinulog Festival"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKA5",
+        "question": "Ano ang tawag sa pista na ipinagdiriwang sa San Pedro Laguna?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sampaguita Festival"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SIBIKACLINCHER",
+        "question": "Ano ang diyalekto ng mga taga Cebu?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Cebuano"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING1",
+        "question": "Noun: People in general thought of as living together in organized communities with shared laws, traditions, and values.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "society"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING2",
+        "question": "Noun: A person who lives next to or near another person.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "neighbor"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING3",
+        "question": "Verb: To notice or recognize a difference between people or things.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "distinguish"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING4",
+        "question": "Adjective: Very special or unusual.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "unique"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING5",
+        "question": "Verb: To think of or describe something as larger or greater than it really is.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "exaggerate"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Adjective: Afraid or nervous especially about what may happen.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "anxious"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH1",
+        "question": "Round off 5,746,408 to its nearest millions.",
+        "image": "",
+        "choices": {
+            "a": "a. 6,000,000",
+            "b": "b. 5,000,000",
+            "c": "c. 5,700,000"
+        },
+        "answer": "a. 6,000,000"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH2",
+        "question": "10,000 x 3,000 = _____",
+        "image": "",
+        "choices": {
+            "a": "a. 30,000",
+            "b": "b. 30,000,000",
+            "c": "c. 3,000,000"
+        },
+        "answer": "b. 30,000,000"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH3",
+        "question": "A shirt costs 300 Php and a tie costs 175 Php. James bought 3 shirts and 2 ties. How much did he spend in all?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "James spent 1, 250 pesos."
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH4",
+        "question": "Victor had 3/4 L of juice. If he drank 1/3 of it, how much juice was left?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "5/12 L of juice was left."
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH5",
+        "question": "Mr. Escolano bought 5 sachets of chocolate drink. If each sachet cost 12.75 Php, how much did he pay in all?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mr. Escolano paid 63.75 Php for the 5 sachets of chocolate drink"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATHCLINCHER",
+        "question": "Marian bought 3 pens for 45.75 Php. How much did each pen cost?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Each pen costs 15.25 Php."
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE1",
+        "question": "The undigested food of the body is called?",
+        "image": "",
+        "choices": {
+            "a": "a. feces",
+            "b": "b. bile",
+            "c": "c. intestines"
+        },
+        "answer": "a. feces"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE2",
+        "question": "It is a process by which food is broken down into simpler form?",
+        "image": "",
+        "choices": {
+            "a": "a. foundation",
+            "b": "b. digestion",
+            "c": "c. respiration"
+        },
+        "answer": "b. digestion"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE3",
+        "question": "He observed that a body near the surface of Earth is pulled towards it when an apple fell and hit him on the head.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE4",
+        "question": "What law of motion states that in every action, there is an equal and opposite reaction?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Law of interaction"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE5",
+        "question": "It is a device placed inside the body of a person to let his or her heart beat evenly?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Pace maker"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCECLINCHER",
+        "question": "It is another term for flowering plant",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Gymnosperm"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKA1",
+        "question": "Tama o Mali: Ang paggamit ng yaman sa hindi tamang paraan ay nakakasira sa kalikasan.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKA2",
+        "question": "Sino ang diyos ng mga Muslim?",
+        "image": "",
+        "choices": {
+            "a": "a. Bathala",
+            "b": "b. Diyos",
+            "c": "c. Allah"
+        },
+        "answer": "c. Allah"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKA3",
+        "question": "Ito ay proseso ng pag-aalis sa tungkulin sa isang mataas na pinuno ng pamahalaan tulad ng pangulo at pangalawang pangulo.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Impeachment"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKA4",
+        "question": "Ang senado ay binubuo ng ilang miyembro?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "24 na miyembro"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKA5",
+        "question": "Ito ang reporma sa lupa na malaking naitutulong para sa mga magsasaka.",
+        "image": "",
+        "choices": {
+            "a": "a. Pangkapayapaan",
+            "b": "b. Pangkabuhayan",
+            "c": "c. Pantransportasyon"
+        },
+        "answer": "b. Pangkabuhayan"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SIBIKACLINCHER",
+        "question": "Ano ang tawag sa aklat na nagsasaad ng mga gabay sa pamahalaan?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Saligang Batas"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING1",
+        "question": "Intransitive verb : To shrink back involuntary (as from pain) : flinch",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "wince"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING2",
+        "question": "Noun. : A person who is not what he or she pretends to be ; imposter",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "fraud"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING3",
+        "question": "Adjective : Charming or quaint in appearance.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "picturesque"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING4",
+        "question": "Adjective : awful; highly offensive",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "obnoxious"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING5",
+        "question": "Noun : Disquietude or distress of mind caused by humiliation, disappointment, or failure",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "chagrin"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Intransitive verb : To accept, comply, or submit tacitly or passively-often used with in or to",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "acquiesce"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH1",
+        "question": "What do you call the numbers that represents as the part of the whole?",
+        "image": "",
+        "choices": {
+            "a": "a. Rate",
+            "b": "b. Percentage",
+            "c": "d. Base"
+        },
+        "answer": "b. Percentage"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH2",
+        "question": "What is the name of the polygon that has 7 sides?",
+        "image": "",
+        "choices": {
+            "a": "a. hexagon",
+            "b": "b. octagon",
+            "c": "c. heptagon"
+        },
+        "answer": "c. heptagon"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH3",
+        "question": "What is the missing term in the following proportion, 36:5 = N:10?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "72"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH4",
+        "question": "What is 30% of 235?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "70.50"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH5",
+        "question": "Find the area and circumference of the circle given that the radius is 5cm.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "A = 78.50 sq.cm., C = 31.40 cm."
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATHCLINCHER",
+        "question": "Triangle ABC is an isosceles triangle. AC=AB. Find the measure of ∠ACB and ∠BAC given that ∠ABC=25°.",
+        "image": "triangle.jpg",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "∠ACB = 25° and ∠BAC = 130°"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE1",
+        "question": "What do you call the fertilized egg of human reproduction?",
+        "image": "",
+        "choices": {
+            "a": "a. Cell",
+            "b": "b. Zygote",
+            "c": "c. Organ"
+        },
+        "answer": "b. Zygote"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE2",
+        "question": "What is formed when light is blocked?",
+        "image": "",
+        "choices": {
+            "a": "a. energy",
+            "b": "b. shadow",
+            "c": "c. heat"
+        },
+        "answer": "b. shadow"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE3",
+        "question": "Complete the sentence below: Heat can transfer through _____, _____, and _____.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "conduction, convection, and radiation"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE4",
+        "question": "Where does fertilization take place?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Uterus"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE5",
+        "question": "The formula in getting the speed",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Speed= Distance/time"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCECLINCHER",
+        "question": "What kind of circuit does electric current flow in one direction?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "series circuit"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKA1",
+        "question": "Ano ang pinakamaliit na yunit ng pamahalaan?",
+        "image": "",
+        "choices": {
+            "a": "a. barangay",
+            "b": "b. balangay",
+            "c": "c. pamilya"
+        },
+        "answer": "a. barangay"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKA2",
+        "question": "Ano ang pinakamatandang unibersidad ng Pilipinas?",
+        "image": "",
+        "choices": {
+            "a": "a. Unibersidad ng Pilipinas",
+            "b": "b. Unibersidad ng Sto. Tomas",
+            "c": "c. Unibersidad ng San Carlo"
+        },
+        "answer": "b. Unibersidad ng Sto. Tomas"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKA3",
+        "question": "Sila ang unang pangkat ng mga misyonaryo na nagtungo sa Pilipinas.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Agustino"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKA4",
+        "question": "Ano ang tawag sa pakikipagpalitan ng mga Pilipino sa mga produkto ng ibang bansa?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Barter"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKA5",
+        "question": "Ito ang pinaka matandang bangko sa siyudad ng Maynila.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Bangko Espanyol-Filipino de Isabel II"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SIBIKACLINCHER",
+        "question": "Ano ang pangunahing ikinabubuhay ng mga sinaunang Pilipino?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Agrikultura"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING1",
+        "question": "Adjective: True and accurate.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "authentic"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING2",
+        "question": "Noun (Plural): A short or spoken or written test that is often taken without preparation.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "quizzes"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING3",
+        "question": "Noun: Deceitful craftiness",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "sleight"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING4",
+        "question": "Adjective: Having or showing the ability to use language clearly and effectively.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "eloquent"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING5",
+        "question": "Noun: A closet with shelves where dishes, utensils, or food is kept; also: a small closet.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "cupboard"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Noun: A long seat that has a back and arms and that two or more people can sit on.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "settee"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH1",
+        "question": "It is a kind of fraction in which the numerator is higher than the denominator.",
+        "image": "",
+        "choices": {
+            "a": "a. Whole number",
+            "b": "b. Improper fraction",
+            "c": "c. Proper fraction"
+        },
+        "answer": "b. Improper fraction"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH2",
+        "question": "If a car travels 360km per 2 hours. How far will it travel in 10 hours?",
+        "image": "",
+        "choices": {
+            "a": "a. 1800 km.",
+            "b": "b. 1600 km.",
+            "c": "c. 1700 km."
+        },
+        "answer": "a. 1800 km."
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH3",
+        "question": "Benjamin has 6 1/8 pizza. He wanted to share it equally with his 7 friends. What parts of the pizzas did each of them get?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "7/8"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH4",
+        "question": "Evaluate: (3 + 4)^2 + (-4)(7) = N",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "21"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH5",
+        "question": "Evaluate 5a + 6bc - 4ac given that a = 9, b= 5, c = 3.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "27"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATHCLINCHER",
+        "question": "Find the unknown number in the given equation, 3d + 764 = 2d + 1 905",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "1141"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE1",
+        "question": "What do you call the interconnected food chains?",
+        "image": "",
+        "choices": {
+            "a": "a. food web",
+            "b": "b. food production",
+            "c": "c. food processing"
+        },
+        "answer": "a. food web"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE2",
+        "question": "What is cytology?",
+        "image": "",
+        "choices": {
+            "a": "a. Study of human behavior",
+            "b": "b. Study of bacteria",
+            "c": "c. Study of cells"
+        },
+        "answer": "c. Study of cells"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE3",
+        "question": "Who was the first scientist who studied the cell?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Robert Hooke"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE4",
+        "question": "He was the one who proposed the first atomic theory.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Democritus"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE5",
+        "question": "According to this law, energy is neither created nor destroyed.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Law of conservation of energy"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCECLINCHER",
+        "question": "It is a kind of force that opposes motion.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Friction / Frictional force"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKA1",
+        "question": "Siya ang nagtatag ng patakarang \"Pilipino Muna\".",
+        "image": "",
+        "choices": {
+            "a": "a. Pangulong Marcos",
+            "b": "b. Pangulong Garcia",
+            "c": "c. Pangulong Magsaysay"
+        },
+        "answer": "b. Pangulong Garcia"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKA2",
+        "question": "Tama o Mali: Matapos ang pananakop ng Amerikano, nagkaroon ng panibagong hamon sa Pilipinas dahil sa pagsiklab ng ikalawang digmaang pandaigdig at sa pananakop ng mga Hapones.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKA3",
+        "question": "Binuksan niya ang Palasyo ng Malacanang sa mga ordinaryong taong nais bumisita, sinong Pangulo ng Pilipinas ito?",
+        "image": "",
+        "choices": {
+            "a": "a. Pangulong Ramong Magsaysay",
+            "b": "b. Pangulong Fidel Ramos",
+            "c": "c. Pangulong Ferdinand Marcos"
+        },
+        "answer": "a. Pangulong Ramon Magsaysay"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKA4",
+        "question": "Sino ang ika-sampung pangulo ng Pilipinas?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Ferdinand Marcos"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKA5",
+        "question": "Sino ang ika-labing anim na Pangulo ng Pilipinas?",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Pangulo Rodrigo Duterte"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SIBIKACLINCHER",
+        "question": "Sinong pangulo ng Pilipinas ang nagtatag ng batas o patakarang pagtitipid o \"Austerity Program\"",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carlos P. Garcia"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING1",
+        "question": "Adjective: Actual, real, or true. Not false or fake.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "genuine"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING2",
+        "question": "Noun: Clothing of a particular kind.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "apparel"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING3",
+        "question": "Adjective and Adverb: Without instrumental music.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "a cappella"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING4",
+        "question": "Noun: A place where people agree to meet at a particular time.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "rendezvous"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING5",
+        "question": "Noun: A usually artificial lake that is used to store a large supply of water for use in people's homes, in businesses, etc.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "reservoir"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Noun: In stories, a spirit in the shape of a young woman who lives in mountains, forests, meadows, and water.",
+        "image": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "nymph"
+    }
+]

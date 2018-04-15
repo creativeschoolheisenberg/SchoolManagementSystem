@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>School Management System</title>
-		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
-		<link rel = "stylesheet" type = "text/css" href="home_layout.css" />
-		<link rel = "stylesheet" type = "text/css" href="accounting_layout.css" />
-	</head>
-	<body>
-		<div class="header">
-			<div id="name">Creative School of San Pedro</div>
-			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
-			<div id="menu" class="hiddenMenu">
-				<div class="menuItem"><a href="/index">Home</a></div>
-				<div class="menuItem"><a href="/admission">Admission</a></div>
-				<div class="menuItem"><a href="/accounting">Accounting</a></div>
-				<div class="menuItem"><a href="/grading">Grading</a></div>
-				<div class="menuItem"><a href="/lcpa">LCPA</a></div>
+<head>
+	<title>School Management System</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "logout.js"></script>
+	<script>
+		window.onload = function() {
+			var div = document.getElementById('logoutButton');
+			div.value=localStorage.getItem("username");
+			div.onclick = function() {
+				logout("/logout");
+			};
+		};
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div id="name">Centre for Creative Learners</div>
+		<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+		<div id="menu" class="hiddenMenu">
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/profile">Profile</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/performing-arts">LCPA</a></div>
+			<div class="menuItem">
+				<label>S.Y.</label>
+				<select id="schoolYear">
+					<option value="2013-2014">2013 - 2014</option>
+					<option value="2014-2015">2014 - 2015</option>
+					<option value="2015-2016">2015 - 2016</option>
+					<option value="2016-2017">2016 - 2017</option>
+					<option value="2017-2018">2017 - 2018</option>
+					<option value="2018-2019" selected>2018 - 2019</option>
+				</select>
 			</div>
-			<div class="clear"></div>
+			<div class="menuItem"><input type = "button" value="LOGOUT" id="logoutButton" /></div>
 		</div>
-		<div class="sidebar">
-			<p><a href="#firstImage" onclick = "fadeChangeImage('imageOne', 'IMG_1.JPG')" class="button">Grade 1</a></p>
-			<p><a href="#secondImage" onclick = "fadeChangeImage('imageTwo', 'IMG_2.JPG')" class="button">Grade 2</a></p>
-			<p><a href="#thirdImage" onclick = "fadeChangeImage('imageThree', 'IMG_3.JPG')" class="button">Grade 3</a></p>
-			<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 4</a></p>
-			<p><a href="#fifthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 5</a></p>
-			<p><a href="#sixththImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 6</a></p>
-			<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Nursery</a></p>
-			<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Jr. Prep</a></p>
-			<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Sr. Prep</a></p>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="#firstImage" onclick = "fadeChangeImage('imageOne', 'IMG_1.JPG')" class="button">Grade 1</a></p>
+		<p><a href="#secondImage" onclick = "fadeChangeImage('imageTwo', 'IMG_2.JPG')" class="button">Grade 2</a></p>
+		<p><a href="#thirdImage" onclick = "fadeChangeImage('imageThree', 'IMG_3.JPG')" class="button">Grade 3</a></p>
+		<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 4</a></p>
+		<p><a href="#fifthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 5</a></p>
+		<p><a href="#sixththImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Grade 6</a></p>
+		<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Nursery</a></p>
+		<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Jr. Prep</a></p>
+		<p><a href="#fourthImage" onclick = "fadeChangeImage('imageFour', 'IMG_4.JPG')" class="button">Sr. Prep</a></p>
+	</div>
+	<div id="content">
+		<div id="firstImage" class="images">
+			<img id="imageOne" />
 		</div>
-		<div id="content">
-			<div id="firstImage" class="images">
-				<img id="imageOne" />
-			</div>
-			<div id="secondImage" class="images">
-				<img id="imageTwo" />
-			</div>
-			<div id="thirdImage" class="images">
-				<img id="imageThree" />
-			</div>
-			<div id="fourthImage" class="images">
-				<img id="imageFour" />
-			</div>
-			<div id="fifthImage" class="images">
-				<img id="dynamicImage" />
-			</div>
+		<div id="secondImage" class="images">
+			<img id="imageTwo" />
 		</div>
-		<div class="footer">
-			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+		<div id="thirdImage" class="images">
+			<img id="imageThree" />
+		</div>
+		<div id="fourthImage" class="images">
+			<img id="imageFour" />
+		</div>
+		<div id="fifthImage" class="images">
+			<img id="dynamicImage" />
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2016, Centre for Creative Learners<br>
 			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
 			Laguna, (02) 869-1123.</p>
 		</div>
 	</body>
-</html>
+	</html>

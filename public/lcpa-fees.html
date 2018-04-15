@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMS: Fees</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "lcpa-fees.js"></script>
+	<script src = "logout.js"></script>
+	<script>
+		window.onload = function() {
+			var date = new Date();
+			document.getElementById("schoolYear").value = determineSchoolYear(date.getMonth(), date.getFullYear());
+			var div = document.getElementById('logoutButton');
+			div.value=localStorage.getItem("username");
+			div.onclick = function() {
+				logout("/logout");
+			};
+			showLCPAFees();
+		};
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div id="name">Centre for Creative Learners</div>
+		<div id="menu" class="hiddenMenu">
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/profile">Profile</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/performing-arts">LCPA</a></div>
+			<div class="menuItem">
+				<label>S.Y.</label>
+				<select id="schoolYear">
+					<option value="2013-2014">2013 - 2014</option>
+					<option value="2014-2015">2014 - 2015</option>
+					<option value="2015-2016">2015 - 2016</option>
+					<option value="2016-2017">2016 - 2017</option>
+					<option value="2017-2018">2017 - 2018</option>
+					<option value="2018-2019">2018 - 2019</option>
+				</select>
+			</div>
+			<div class="menuItem"><input type = "button" value="LOGOUT" id="logoutButton" /></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="/performing-arts/lcpa-enrolment" class="button">Enrolment</a></p>
+		<p><a href="/performing-arts/lcpa-payment" class="button">Payment</a></p>
+		<p><a href="/performing-arts/lcpa-enroled-students" class="button">Students</a></p>
+		<p><a href="/performing-arts/lcpa-notice" class="button">Notice</a></p>
+		<p><a href="/performing-arts/lcpa-fees" class="button">Fees</a></p>
+	</div>
+	<div id="content">
+		<div class="blank">
+		</div>
+		<div class="pageHeader">
+			<div class="row">
+				<div class="column-25">
+					
+				</div>
+				<div class="column-40">
+					<p><h2>LCPA PROGRAM FEES</h2></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-30-C">
+				<label>VOICE (dual)</label>
+			</div>
+			<div class="column-30-C">
+				<label>DRUMS (1on1)</label>
+			</div>
+			<div class="column-30-C">
+				<label>DANCE (class)</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-20">
+				<input type="text" id="voice" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="drums" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="dance" disabled>
+			</div>
+		</div>
+		<br>
+		<hr class="divider">
+		<br>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-30-C">
+				<label>PIANO (4 - 7 yrs)</label>
+			</div>
+			<div class="column-30-C">
+				<label>PAINTING (CLASS)</label>
+			</div>
+			<div class="column-30-C">
+				<label>VIOLIN (1on1)</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-20">
+				<input type="text" id="piano1" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="painting" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="violin" disabled>
+			</div>
+		</div>
+		<br>
+		<hr class="divider">
+		<br>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-30-C">
+				<label>PIANO (8 yrs and up)</label>
+			</div>
+			<div class="column-30-C">
+				<label>GUITAR (dual)</label>
+			</div>
+			<div class="column-30-C">
+				<label>REGISTRATION FEE</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-05"></div>
+			<div class="column-20">
+				<input type="text" id="piano2" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="guitar" disabled>
+			</div>
+			<div class="column-10"></div>
+			<div class="column-20">
+				<input type="text" id="regfee" disabled>
+			</div>
+		</div>
+		<br>
+		<hr class="divider">
+		<br>
+		<div class="row">
+			<div class="column-30"></div>
+			<div class="column-05"></div>
+			<div class="column-30-C">
+				<label>RECITAL FEE</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-30"></div>
+			<div class="column-05"></div>
+			<div class="column-20">
+				<input type="text" id="recitalFee" disabled>
+			</div>
+		</div>
+		<div>
+			<button onclick = "updateLCPAFees()" id="update" class="accbtn" disabled>Update</button>
+			<button onclick = "enableBtn()" id="edit" class="accbtn">Edit</button>
+		</div>
+	</div>
+	<div class="footer">
+		<p>
+			Copyright &copy; 2016, Centre for Creative Learners<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.
+		</p>
+	</div>
+</body>
+</html>
