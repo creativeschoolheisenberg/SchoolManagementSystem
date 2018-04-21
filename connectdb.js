@@ -221,6 +221,23 @@ exports.enrolCreativeStudent = function(data, callback) {
 	dbStuds.close();
 }
 
+exports.enrolLCPAStudent = function(data, callback) {
+	var tablename = "enroled_students";
+	var dbStuds = new sqlite3.Database("LCPAStudents.db");
+	dbStuds.serialize(function () {
+		dbStuds.run("CREATE TABLE if not exists " + tablename + "(StudentNumber int primary key, RegistrationNumber int, SchoolYear text, DateEnroled date," +
+			"TotalAmountDue decimal(18, 2), RegistrationFee decimal(18, 2), TotalCourseFee decimal(18, 2), RecitalFee decimal(18, 2)," +
+			"Discount decimal(18, 2), TotalAmountToPay decimal(18, 2), TotalBalance decimal(18, 2))");
+		var studIns = dbStuds.prepare("INSERT INTO " + tablename + " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+		studIns.run(data.studentNumber, data.registrationNumber, data.schoolYear, data.dateEnroled, data.totalAmountDue, data.regfee, data.totalCourseFee,
+			data.recitalFee, data.discount, data.totalAmountToPay, data.totalBalance, function(err, row) {
+				callback(err);
+		});
+		studIns.finalize();
+	});
+	dbStuds.close();
+}
+
 exports.saveFees = function(data, callback) {
 	var dbStuds = new sqlite3.Database("CreativeStudents.db");
 	dbStuds.serialize(function () {

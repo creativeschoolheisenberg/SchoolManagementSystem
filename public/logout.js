@@ -19,12 +19,7 @@ function logout(url) {
 }
 
 function determineSchoolYear(currentMonth, currentYear) {
-	var year = "";
-	if(currentMonth >= 4) {
-		year = currentYear;
-	}
-	else if(currentMonth <= 8) {
-		year = currentYear - 1;
-	}
+	// FIXED THIS FOR NEXT SCHOOL YEAR
+	var year = currentYear;
 	return(year + "-" + parseInt(year + 1));
 }

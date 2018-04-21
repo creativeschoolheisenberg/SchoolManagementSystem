@@ -362,6 +362,19 @@ express.post("/enrolCreativeStudent", function (req, res) {
 	});
 })
 
+express.post("/enrolLCPAStudent", function (req, res) {
+	var data = "";
+	req.on('data', function (dd) {
+		data += dd.toString();
+	});
+	req.on('end', function () {
+		var qs = JSON.parse(data);
+		connectdb.enrolLCPAStudent(qs, function(status) {
+			res.end(JSON.stringify(status), 200, 'application/json');
+		});
+	});
+})
+
 express.post("/searchStudent", function (req, res) {
 	var data = "";
 	req.on('data', function (dd) {

@@ -91,7 +91,7 @@ function computeCourse(courses) {
 				}
 			}
 			document.getElementById('totalCourseFee').value = courseFee;
-			document.getElementById('total').value = courseFee + parseInt(document.getElementById('regfee').value) + parseInt(document.getElementById('recitalFee').value);
+			document.getElementById('totalAmountDue').value = courseFee + parseInt(document.getElementById('regfee').value) + parseInt(document.getElementById('recitalFee').value);
 		}
 	};
 	rq.open("POST", "/showLCPAFees", true);
@@ -133,5 +133,41 @@ function createCourseElements(courseArray) {
 function compute() {
 	var discount = document.getElementById('discount').value;
 	var total = parseInt(document.getElementById('totalCourseFee').value) + parseInt(document.getElementById('regfee').value);
-	document.getElementById('totalAmount').value = total - discount;
+	document.getElementById('totalAmountToPay').value = total - discount;
+	document.getElementById('enrol').disabled = false;
+}
+
+function enrolLCPAStudent() {
+	let rq = new XMLHttpRequest();
+	rq.onreadystatechange = function() {
+		if(rq.readyState == 4) {
+			var response = JSON.parse(rq.responseText);
+			if(response == null) {
+				window.location.href="/performing-arts/lcpa-enrolment";
+				alert("Saved");
+			}
+			else if(response != null) {
+				window.location.href="/performing-arts/lcpa-enrolment";
+				alert(document.getElementById('studentNumber').value + " has been enroled already");
+			}
+		}
+	};
+	var data = {
+		"studentNumber" : document.getElementById('studentNumber').value,
+		"registrationNumber" : document.getElementById('registrationNumber').value,
+		"schoolYear" : document.getElementById('sy').value,
+		"dateEnroled" : document.getElementById('dateEnrolled').value,
+		"totalAmountDue" : document.getElementById('totalAmountDue').value,
+		"regfee" : document.getElementById('regfee').value,
+		"totalCourseFee" : document.getElementById('totalCourseFee').value,
+		// keep in mind that the recital fee will be changed
+		// at some point after enrolment.
+		"recitalFee" : document.getElementById('recitalFee').value,
+		"discount" : document.getElementById('discount').value,
+		"totalAmountToPay" : document.getElementById('totalAmountToPay').value,
+		"totalBalance" : document.getElementById('totalAmountToPay').value
+	};
+	rq.open("POST", "/enrolLCPAStudent", true);
+	rq.setRequestHeader("Content-Type", "application/json");
+	rq.send(JSON.stringify(data));
 }
