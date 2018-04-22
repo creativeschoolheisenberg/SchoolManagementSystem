@@ -2,64 +2,221 @@ body {
 	margin: 0px;
 }
 
-#header {
+.header {
 	width: 100%; background: #2E2E2E; 
 	position: fixed; color: white;
 	font-size: 18px; padding: 16px;
 	top: 0px; height: 32px;
+}
+
+.header, #name {
 	font-weight: bold;
+	float: left;
 }
 
-#content {
-	width: 30%; background: #2E2E2E; 
-	position: fixed; color: white;
-	font-size: 18px; padding: 16px;
-	top: 30%; height: 33%; left: 35%;
-	text-align: center;
-	font-weight: bold;
+#menu a, #menuButton a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font: arial; font-size: 13px;
 }
 
-#content p {
-	font-weight: bold; font-size: 20px;
-	vertical-align: middle;
+#schoolYear, #gradeSelect{
+	width: 120px;
+	padding-top: 5px; padding-bottom: 5px;
 }
 
-#username, #password {
-	font-size: 16px;
+#schoolYear, #gradeSelect, .menuItem label {
+	font-size: 13px;
 }
 
-#login p {
-	margin-left: 50px;
+@media only screen and (min-width: 600px) {
+	#menu {
+		float: right;
+		display: block;
+		padding-right: 25px;
+
+	}
+	.menuItem {
+		display: inline;	
+	}
+	.menuItem + .menuItem {
+		border-left: 1px solid white;
+		margin-left: 8px; padding-left: 10px;
+	}
+	#menuButton {
+		display: none;
+	}
+}
+/* .menuButton and .menuItem does not work under small screen size */
+@media only screen and (max-width: 599px) {
+	#menuButton {
+		display: inline;
+	}
+
+	#menu {
+		position: absolut; top: 48px;
+		right: 0px; background: black;
+		padding: 16px;
+	}
+
+	.showMenu {
+		display: block;
+	}
+
+	.hiddenMenu {
+		display: none;
+	}
+
+	.menuItem {
+		display: block;
+	}
+
+	.menuItem + .menuItem {
+		margin-top: 8px;
+	}
+
+	@media only screen and (max-height: 300px) {
+		.header {
+			display: none;
+		}
+		
+		.footer {
+			display: none;
+		}
+	}
+}
+
+#imageLevel {
+	position: absolute;
+	float: left;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+#questionHeader p {
+    position: absolute;
+	top: 0; /* 25% from the top */
+	left: 65px;
+	text-align: left; /* Centered text/links */
+	font-size: 32px;
+	color: #AB9995;
+}
+
+#overlay-content {
+    position: relative;
+    top: 5%; /* 25% from the top */
+    height: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+#contentDiv {
+    position: relative;
+    top: 15%; /* 25% from the top */
+    height: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay p {
+    padding: 4px;
+    font-size: 60px;
+    color: white;
+    display: inline; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+.overlay div p{
+    display: block; /* Display block instead of inline */
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn, .overlay .disabledbtn {
+    position: absolute;
+    bottom: 5%;
+    right: 45px;
+    font-size: 16px;
+}
+
+.overlay .timer, .overlay .answer {
+	color: red;
+    position: absolute;
+    bottom: 5%;
+    left: 48px;
+    font-size: 24px;
+}
+
+#overlay-content label {
+	display: block;
+	color: #AB9995;
+	font-size: 36px;
 	text-align: left;
-	font-size: 20px;
 }
 
-#loginButton {
-	background: -webkit-linear-gradient(top, #208D93, #6BEBFF);
-	background: -moz-linear-gradient(top, #208D93, #6BEBFF);
-	background: -ms-linear-gradient(top, #208D93, #6BEBFF);
-	background: -o-linear-gradient(top, #208D93, #6BEBFF);
-	background: linear-gradient(bottom, #208D93, #6BEBFF);
-	border-radius: 4px; border: 1px solid #444444;
-	box-shadow: 0px 1px 1px #888888 inset, 1px 1px 3px #222222;
-	color: white; text-decoration: none;
-	text-align: center; padding: 16px 32px 16px 32px;
-	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4);
-	font-family: arial; font-weight: bold; font-size: 16px;
-	padding: 8px 16px 8px 16px;
-	width: 75%;
+.questions {
+	display: block;
+	font-size: 24px;
+	margin-left: 65px;
+	padding: 5px;
 }
 
-#loginButton:hover {
-	background: #AB9995; color: white;
+.imageFile, .inputFile {
+	display: block;
+	font-size: 28px;
+	left: 0px;
+	margin-right: 5px;
 }
 
-#footer {
+.inputFile {
+	color: white;
+}
+
+.images {
+	display: inline-block;
+}
+
+#ans {
+	font-size: 80px;
+	color: red;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+#feesLevel {
+	display: none;
+}
+
+#searchContent {
+	display: none;
+}
+
+.footer {
 	width: 100%; position: fixed; padding: 8px;
 	bottom: 0px; background: #2E2E2E;
 }
 
-#footer > p {
+.footer > p {
 	margin: 6px; color: white;
 	font: bold 12px arial; text-align: center;
 }

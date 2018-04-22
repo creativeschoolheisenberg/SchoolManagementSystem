@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>School Management System: Registration</title>
-		<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
-		<link rel = "stylesheet" type = "text/css" href = "home_layout.css" />
-		<link rel = "stylesheet" type = "text/css" href = "accounting_layout.css" />
-		<script src = "SMS.js"></script>
-		<script>
-			window.onload = function() {
-				display('registration');
+<head>
+	<title>SMS: Notice</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "logout.js"></script>
+	<script>
+		window.onload = function() {
+			var date = new Date();
+			document.getElementById("schoolYear").value = determineSchoolYear(date.getMonth(), date.getFullYear());
+			var div = document.getElementById('logoutButton');
+			div.value=localStorage.getItem("username");
+			div.onclick = function() {
+				logout("/logout");
 			};
-		</script>
-	</head>
-	<body>
-		<div id = "header">
-			<div id = "name">Creative School of San Pedro</div>
-			<div id = "menu" class = "hiddenMenu">
-			<div id = "menuButton"><a id = "menuLink" href = "#">MENU</a></div>
-				<div class = "menuItem"><a href = "/index">Home</a></div>
-				<div class = "menuItem"><a href = "/accounting">Accounting System</a></div>
-				<div class = "menuItem"><a href = "/grading">Grading System</a></div>
-				<div class = "menuItem"><a href = "/lcpa">LCPA</a></div>
+		};
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div id="name">Centre for Creative Learners</div>
+		<div id="menu" class="hiddenMenu">
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/profile">Profile</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/performing-arts">LCPA</a></div>
+			<div class="menuItem">
+				<label>S.Y.</label>
+				<select id="schoolYear">
+					<option value="2013-2014">2013 - 2014</option>
+					<option value="2014-2015">2014 - 2015</option>
+					<option value="2015-2016">2015 - 2016</option>
+					<option value="2016-2017">2016 - 2017</option>
+					<option value="2017-2018">2017 - 2018</option>
+					<option value="2018-2019">2018 - 2019</option>
+				</select>
 			</div>
-			<div class = "clear"></div>
+			<div class="menuItem"><input type = "button" value="LOGOUT" id="logoutButton" /></div>
 		</div>
-		<div id = "sidebar">
-			<p><a href = "/accounting/registration" class = "button">Registration</a></p>
-			<p><a href = "/accounting/enrolment" class = "button">Enrolment</a></p>
-			<p><a href = "/accounting/payment" class = "button">Payment</a></p>
-			<p><a href = "/accounting/enroledStudents" class = "button">Students</a></p>
-			<p><a href = "/accounting/notice" class = "button">Notice</a></p>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="/accounting/enrolment" class="button">Enrolment</a></p>
+		<p><a href="/accounting/payment" class="button">Payment</a></p>
+		<p><a href="/accounting/enroled-students" class="button">Students</a></p>
+		<p><a href="/accounting/notice" class="button">Notice</a></p>
+		<p><a href="/accounting/fees" class="button">Fees</a></p>
+	</div>
+	<div id="content">
+		<div class="blank">
 		</div>
-		<div id = "content">
-			<div id = "blank">
-			</div>
-			<div id = "notice" class = "images">
-				<img id = "dynamicImage" />
-			</div>
+		<div id="notice" class="images">
+			<img id="dynamicImage" />
 		</div>
-		<div id = "footer">
-			<p>Copyright &copy; 2016, Creative School of San Pedro<br>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2016, Centre for Creative Learners<br>
 			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
 			Laguna, (02) 869-1123.</p>
 		</div>
 	</body>
-</html>
+	</html>

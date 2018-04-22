@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Academic Challenge</title>
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "login.js"></script>
+	<script src = "logout.js"></script>
+	<script src = "academic-challenge-questions.js"></script>
+</head>
+<script>
+	window.onload = function() {
+		init();
+		populateHeader(document.getElementById("subjectHeader"));
+		populateQuestionBtn(document.getElementById("questionsButton"));
+		var div = document.getElementById('logoutButton');
+		div.value=localStorage.getItem("username");
+		div.onclick = function() {
+			logout("/logout");
+		};
+	};
+</script>
+<body>
+	<div class="header">
+		<div id="name">Centre for Creative Learners</div>
+		<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+		<div id="menu" class="hiddenMenu">
+			<div class="menuItem">
+				<label>Grade Level</label>
+				<select id="gradeSelect">
+					<option selected></option>
+					<option value="Grade1">Grade 1</option>
+					<option value="Grade2">Grade 2</option>
+					<option value="Grade3">Grade 3</option>
+					<option value="Grade4">Grade 4</option>
+					<option value="Grade5">Grade 5</option>
+					<option value="Grade6">Grade 6</option>
+				</select>
+			</div>
+			<div class="menuItem"><input type = "button" value="LOGOUT" id="logoutButton" /></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="pageHeader">
+		<div class="row">
+			<div class="column-100-2">
+				<p><h2>CREATIVE ACADEMIC CHALLENGE</h2></p>
+			</div>
+		</div>
+		<hr class="divider">
+		<div id="subjectHeader">
+		</div>
+		<div id="questionsButton">
+		</div>
+	</div>
+	<div id="myNav" class="overlay">
+		<div id="questionHeader">
+		</div>
+		<div id="overlay-content">
+		</div>
+		<button type="button" id="close" class="closebtn" onclick="submit()">submit</button>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2016, Centre for Creative Learners<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+	</div>
+</body>
+</html>

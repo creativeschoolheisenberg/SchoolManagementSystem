@@ -1,0 +1,1586 @@
+[
+    {
+        "level": "Grade1",
+        "subject": "MATH100",
+        "question": "Nelly",
+        "choices": {
+            "a": "odsgnasogn",
+            "b": "sdlgnadlgn",
+            "c": "kelly"
+        },
+        "answer": "kelly"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH200",
+        "question": "Which addition sentence below has a sum of 9?",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH300",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": "a. 39"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATH500",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade1",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE100",
+        "question": "The three main parts of the body are?",
+        "choices": {
+            "a": "a. Head, trunk and limbs",
+            "b": "b. Eyes, head and hands",
+            "c": "c. Limbs, trunk and nose"
+        },
+        "answer": "a. Head, trunk and limbs"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE200",
+        "question": "It is the ability to do work?",
+        "choices": {
+            "a": "a. energy",
+            "b": "b. force",
+            "c": "c. heat"
+        },
+        "answer": "a. energy"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE300",
+        "question": "A bottle contains water. What phase of matter does the bottle belong to?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Solid"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE400",
+        "question": "What do you call the gas the comes out from the smoke of a car?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carbon monoxide"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCE500",
+        "question": "What is force?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "The push or pull upon an object."
+    },
+    {
+        "level": "Grade1",
+        "subject": "SCIENCECLINCHER",
+        "question": "What is the biggest flower?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Rafflesia"
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Ano ang tawag sa silid na kinalalagyan ng maraming aklat para mabasa ng mga bata?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Silid-Aklatan"
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Ito ang tawag sa mga batang pumapasok sa paaralan.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "mag-aaral"
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Anong taon itinatag ang Centre for Creative Learners of San Pedro (Creative)?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Itinatag ito noong 1995"
+    },
+    {
+        "level": "Grade1",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING100",
+        "question": "Noun. : A group of individuals living under one roof and usually under one head",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Family"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING200",
+        "question": "Noun. A unit of time that is equal to 12 months or 365 or sometimes 366 days.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Year"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING300",
+        "question": "Noun. : a period of time that lasts about four weeks or 30 days.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Month"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING400",
+        "question": "Noun. : the day of the week between Tuesday and Thursday.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Wednesday"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLING500",
+        "question": "Noun. : An area of land that rises very high above the land around it and that is higher than a hill.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mountain"
+    },
+    {
+        "level": "Grade1",
+        "subject": "SPELLINGCLINCHER",
+        "question": "Noun. The state of being friends: the relation between friends.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Friendship"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH100",
+        "question": "Which among the numbers below are 1 more than 15",
+        "choices": {
+            "a": "a. 19",
+            "b": "b. 17",
+            "c": "c. 16"
+        },
+        "answer": "c. 16"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH200",
+        "question": "Which addition sentence below has a sum of 9?",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH300",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATH500",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade2",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE100",
+        "question": "All of the following are \"Grow Food\" except _____",
+        "choices": {
+            "a": "a. Milk",
+            "b": "b. Egg",
+            "c": "c. Cereals"
+        },
+        "answer": "c. Cereals"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE200",
+        "question": "Matter has mass and takes up _____",
+        "choices": {
+            "a": "a. Heat",
+            "b": "b. Light",
+            "c": "c. Space"
+        },
+        "answer": "c. Space"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE300",
+        "question": "Part of the plant that protects the developing seeds.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Fruit"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE400",
+        "question": "Flashlight is an artificial source of light. What do you mean by artificial?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Man made"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCE500",
+        "question": "What do you call the gas that humans breathe out?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carbon monoxide"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SCIENCECLINCHER",
+        "question": "Who discovered that white light consist or rays of different colors (ROYGBIV)?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Noun: The day after today.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tomorrow"
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Anung uri ng likas na yaman ang ipinapakita sa paglikha ng mga nakakaaliw na musika?",
+        "choices": {
+            "a": "a. Yamang tubig",
+            "b": "b. Yamang tao",
+            "c": "c. Yamang lupa"
+        },
+        "answer": "b. Yamang tao"
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Anong uri ng hanap-buhay ang tinutukoy: Ako ay pumunta sa data o lawa upang manghuli ng mga isda at iba pang halamang-dagat na kailangan ng mga tao.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mangingisda"
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Anong uri ng likas na yaman ang mga gulay at prutas?",
+        "choices": {
+            "a": "a. Yamang tubig",
+            "b": "b. Yamang tao",
+            "c": "c. Yamang lupa"
+        },
+        "answer": "c. Yamang lupa"
+    },
+    {
+        "level": "Grade2",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Ako ang nagtuturo ng mga bagong kaalaman at kabutihang asal sa mga bata sa loob ng paaralan. Sino ako?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Guro"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING100",
+        "question": "Noun. : A group of individuals living under one roof and usually under one head",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Family"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING200",
+        "question": "Noun: Something that is very special, important, or valuable.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Treasure"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING300",
+        "question": "Noun: Two vowel sounds joined in one syllable to form one speech sound.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Dipthongs"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING400",
+        "question": "Noun: A particular person's way of pronouncing a word or the words of a language.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Pronunciation"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLING500",
+        "question": "Noun: A feeling of eager enthusiasm and interest.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Excitement"
+    },
+    {
+        "level": "Grade2",
+        "subject": "SPELLINGCLINCHER",
+        "question": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH100",
+        "question": "Which among the numbers below are 1 more than 15",
+        "choices": {
+            "a": "a. 19",
+            "b": "b. 17",
+            "c": "c. 16"
+        },
+        "answer": "c. 16"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH200",
+        "question": "Which addition sentence below has a sum of 9?",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH300",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATH500",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade3",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE100",
+        "question": "The two openings or holes of the nose is called?",
+        "choices": {
+            "a": "a. Nostril",
+            "b": "b. Nasal Cavity",
+            "c": "c. Pores"
+        },
+        "answer": "a. Nostril"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE200",
+        "question": "Any change in position with respect to its reference point is called?",
+        "choices": {
+            "a": "a. friction",
+            "b": "b. energy",
+            "c": "c. motion"
+        },
+        "answer": "c. motion"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE300",
+        "question": "What are the three phases of matter?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "solid, liquid, and gas"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCE500",
+        "question": "What kind of vertebrate does the whale belong to?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mammals"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SCIENCECLINCHER",
+        "question": "Who discovered the gravitational force?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Ano ang dialekto ng mga taga Cebu?",
+        "choices": {
+            "a": "a. Cebuano",
+            "b": "b. Ilonggo",
+            "c": "c. Ilocano"
+        },
+        "answer": "a. Cebuano"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Opinyon o Katotohanan: Ang mga larong Pilipino ay para sa kabataan lamang.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Opinyon"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Ito ay tumutukoy sa paggalaw kasunod ng musika na maaring ginagamit na ritwal o pagdiriwang?",
+        "choices": {
+            "a": "a. Awit",
+            "b": "b. Tradisyon",
+            "c": "c. Sayaw"
+        },
+        "answer": "c. Sayaw"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Ano ang tawag sa pista na ipinagdiriwang sa Cebu?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sinulog Festival"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Ano ang tawag sa pista na ipinagdiriwang sa San Pedro Laguna?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sampaguita Festival"
+    },
+    {
+        "level": "Grade3",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING100",
+        "question": "Noun. People in general thought of as living together in organized communities with shared laws, traditions, and values.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Society"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING200",
+        "question": "Noun. A person who lives next to or near another person.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Neighbor"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING300",
+        "question": "Verb. To notice or recognize a difference between people or things.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Distinguish"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING400",
+        "question": "Adjective. Very special or unusual.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Unique"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLING500",
+        "question": "Verb. To think of or describe something as larger or greater than it really is.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Exaggerate"
+    },
+    {
+        "level": "Grade3",
+        "subject": "SPELLINGCLINCHER",
+        "question": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH100",
+        "question": "Round off 5,746,408 to its nearest millions.",
+        "choices": {
+            "a": "a. 6,000,000",
+            "b": "b. 5,000,000",
+            "c": "c. 5,700,000"
+        },
+        "answer": "a. 6,000,000"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH200",
+        "question": "10,000 x 3,000 = _____",
+        "choices": {
+            "a": "a. 30,000",
+            "b": "b. 30,000,000",
+            "c": "c. 3,000,000"
+        },
+        "answer": "b. 30,000,000"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH300",
+        "question": "A shirt costs 300 Php and a tie costs 175 Php. James bought 3 shirts and 2 ties. How much did he spend in all?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "James spent 1, 250 pesos."
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH400",
+        "question": "Victor had 3/4 L of juice. If he drank 1/3 of it, how much juice was left?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "5/12 L of juice was left."
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATH500",
+        "question": "Mr. Escolano bought 5 sachets of chocolate drink. If each sachet cost 12.75 Php, how much did he pay in all?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mr. Escolano paid 63.75 Php for the 5 sachets of chocolate drink"
+    },
+    {
+        "level": "Grade4",
+        "subject": "MATHCLINCHER",
+        "question": "Marian bought 3 pens for 45.75 Php. How much did each pen cost?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Each pen costs 15.25 Php."
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE100",
+        "question": "The undigested food of the body is called?",
+        "choices": {
+            "a": "a. feces",
+            "b": "b. bile",
+            "c": "c. intestines"
+        },
+        "answer": "a. feces"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE200",
+        "question": "It is a process by which food is broken down into simpler form?",
+        "choices": {
+            "a": "a. foundation",
+            "b": "b. digestion",
+            "c": "c. respiration"
+        },
+        "answer": "b. digestion"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE300",
+        "question": "He observed that a body near the surface of Earth is pulled towards it when an apple fell and hit him on the head.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sir Isaac Newton"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCE500",
+        "question": "It is a device placed inside the body of a person to let his or her heart beat evenly?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Pace maker"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SCIENCECLINCHER",
+        "question": "It is another term for flowering plant",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Gymnosperm"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Tama o Mali: Ang paggamit ng yaman sa hindi tamang paraan ay nakakasira sa kalikasan.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Sino ang diyos ng mga Muslim?",
+        "choices": {
+            "a": "a. Bathala",
+            "b": "b. Diyos",
+            "c": "c. Allah"
+        },
+        "answer": "c. Allah"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Ito ay proseso ng pag-aalis sa tungkulin sa isang mataas na pinuno ng pamahalaan tulad ng pangulo at pangalawang pangulo.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Impeachment"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Ang senado ay binubuo ng ilang miyembro?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "24 na miyembro"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Ito ang reporma sa lupa na malaking naitutulong para sa mga magsasaka.",
+        "choices": {
+            "a": "a. Pangkapayapaan",
+            "b": "b. Pangkabuhayan",
+            "c": "c. Pantransportasyon"
+        },
+        "answer": "b. Pangkabuhayan"
+    },
+    {
+        "level": "Grade4",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING100",
+        "question": "Noun. : A group of individuals living under one roof and usually under one head",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Family"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING200",
+        "question": "Noun. : a unit of time that is equal to 12 months or 365 or sometimes 366 days.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Year"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING300",
+        "question": "Noun. : a period of time that lasts about four weeks or 30 days.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Month"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING400",
+        "question": "Noun. : the day of the week between Tuesday and Thursday.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Wednesday"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLING500",
+        "question": "Noun. : An area of land that rises very high above the land around it and that is higher than a hill.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Mountain"
+    },
+    {
+        "level": "Grade4",
+        "subject": "SPELLINGCLINCHER",
+        "question": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH100",
+        "question": "Which among the numbers below are 1 more than 15",
+        "choices": {
+            "a": "a. 19",
+            "b": "b. 17",
+            "c": "c. 16"
+        },
+        "answer": "c. 16"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH200",
+        "question": "Which addition sentence below has a sum of 9?",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH300",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATH500",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade5",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE100",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE200",
+        "question": "What is formed when light is blocked?",
+        "choices": {
+            "a": "a. energy",
+            "b": "b. shadow",
+            "c": "c. heat"
+        },
+        "answer": "b. shadow"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE300",
+        "question": "Complete the sentence below: <br> Heat can transfer through _____, _____, and _____.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "conduction, convection, and radiation"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE400",
+        "question": "Where does fertilization take place?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Uterus"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCE500",
+        "question": "Complete the sentence: Heat can transfer through _____, _____ and _____.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "conduction, convection and radiation"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SCIENCECLINCHER",
+        "question": "What kind of circuit does electric current flow in one direction?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "series circuit"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Ano ang pinakamaliit na yunit ng pamahalaan?",
+        "choices": {
+            "a": "a. barangay",
+            "b": "b. balangay",
+            "c": "c. pamilya"
+        },
+        "answer": "a. barangay"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Ano ang pinakamatandang unibersidad ng Pilipinas?",
+        "choices": {
+            "a": "a. Unibersidad ng Pilipinas",
+            "b": "b. Unibersidad ng Sto. Tomas",
+            "c": "c. Unibersidad ng San Carlo"
+        },
+        "answer": "b. Unibersidad ng Sto. Tomas"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Sila ang unang pangkat ng mga misyonaryo na nagtungo sa Pilipinas.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Agustino"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Ano ang tawag sa pakikipagpalitan ng mga Pilipino sa mga produkto ng ibang bansa?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Barter"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Ito ang pinaka matandang bangko sa siyudad ng Maynila.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Bangko Espanyol-Filipino de Isabel II"
+    },
+    {
+        "level": "Grade5",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING100",
+        "question": "Adjective. True and accurate.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Authentic"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING200",
+        "question": "Noun. (Plural) A short or spoken or written test that is often taken without preparation.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Quizzes"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING300",
+        "question": "Noun. Deceitful craftiness",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Sleight"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING400",
+        "question": "Adjective. Having or showing the ability to use language clearly and effectively.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Eloquent"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLING500",
+        "question": "Noun. A closet with shelves where dishes, utensils, or food is kept; also: a small closet.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Cupboard"
+    },
+    {
+        "level": "Grade5",
+        "subject": "SPELLINGCLINCHER",
+        "question": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH100",
+        "question": "Which among the numbers below are 1 more than 15",
+        "choices": {
+            "a": "a. 19",
+            "b": "b. 17",
+            "c": "c. 16"
+        },
+        "answer": "c. 16"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH200",
+        "question": "Which addition sentence below has a sum of 9?",
+        "choices": {
+            "a": "a. 3 + 7",
+            "b": "b. 5 + 4",
+            "c": "c. 6 + 2"
+        },
+        "answer": "b. 5 + 4"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH300",
+        "question": "Which subtraction sentence below has a difference of 8?",
+        "choices": {
+            "a": "a. 18 - 10",
+            "b": "b. 10 - 8",
+            "c": "c. 9 - 5"
+        },
+        "answer": "a. 18 - 10"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH400",
+        "question": "Which number are 2 more than 37?",
+        "choices": {
+            "a": "a. 39",
+            "b": "b. 32",
+            "c": "c. 40"
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATH500",
+        "question": "Arrange the following numbers in ascending order (from least to greatest).",
+        "choices": {
+            "a": "24, 12, 32, 8, 20",
+            "b": "",
+            "c": ""
+        },
+        "answer": "8, 12, 20, 24, 32"
+    },
+    {
+        "level": "Grade6",
+        "subject": "MATHCLINCHER",
+        "question": "Roy bought 25 yellow pencils for his boy classmates and 12 pink pencils for his girl classmates.How many pencils in all did Roy buy?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "37 pencils"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE100",
+        "question": "Question needs revision",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE200",
+        "question": "What is cytology?",
+        "choices": {
+            "a": "a. Study of human behavior",
+            "b": "b. Study of bacteria",
+            "c": "c. Study of cells"
+        },
+        "answer": "c. Study of cells"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE300",
+        "question": "Who was the first scientist who studied the cell?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Robert Hooke"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE400",
+        "question": "He was the one who proposed the first atomic theory.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Democritus"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCE500",
+        "question": "According to this law, energy is neither created nor destroyed.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Law of conservation of energy"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SCIENCECLINCHER",
+        "question": "It is a kind of force that opposes motion.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Friction / Frictional force"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNAN100",
+        "question": "Siya ang nagtatag ng patakarang \"Pilipino Muna\".",
+        "choices": {
+            "a": "a. Pangulong Marcos",
+            "b": "b. Pangulong Garcia",
+            "c": "c. Pangulong Magsaysay"
+        },
+        "answer": "b. Pangulong Garcia"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNAN200",
+        "question": "Tama o Mali: Matapos ang pananakop ng Amerikano, nagkaroon ng panibagong hamon sa Pilipinas dahil sa pagsiklab ng ikalawang digmaang pandaigdig at sa pananakop ng mga Hapones.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Tama"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNAN300",
+        "question": "Binuksan niya ang Palasyo ng Malacanang sa mga ordinaryong taong nais bumisita, sinong Pangulo ng Pilipinas ito?",
+        "choices": {
+            "a": "a. Pangulong Ramong Magsaysay",
+            "b": "b. Pangulong Fidel Ramos",
+            "c": "c. Pangulong Ferdinand Marcos"
+        },
+        "answer": "a. Pangulong Ramon Magsaysay"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNAN400",
+        "question": "Sino ang ika-sampung pangulo ng Pilipinas?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Ferdinand Marcos"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNAN500",
+        "question": "Sino ang ika-labing anim na Pangulo ng Pilipinas?",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Pangulo Rodrigo Duterte"
+    },
+    {
+        "level": "Grade6",
+        "subject": "ARALINGPANLIPUNANCLINCHER",
+        "question": "Sinong pangulo ng Pilipinas ang nagtatag ng bats o patakarang pagtitipid o \"Austerity Program\"",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Carlos P. Garcia"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING100",
+        "question": "Adjective. Actual, real, or true: not false or fake.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Genuine"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING200",
+        "question": "Noun. Clothing of a particular kind.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Apparel"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING300",
+        "question": "Adjective and Adverb. Without instrumental music.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "a capella"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING400",
+        "question": "Noun. A place where people agree to meet at a particular time.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Rendezvous"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLING500",
+        "question": "Noun. A usually artificial lake that is used to store a large supply of water for use in people's homes, in businesses, etc.",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": "Reservoir"
+    },
+    {
+        "level": "Grade6",
+        "subject": "SPELLINGCLINCHER",
+        "question": "",
+        "choices": {
+            "a": "",
+            "b": "",
+            "c": ""
+        },
+        "answer": ""
+    }
+]

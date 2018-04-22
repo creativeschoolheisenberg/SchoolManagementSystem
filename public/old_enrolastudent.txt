@@ -1,0 +1,104 @@
+<div id="enrolment">
+			<form id="enrolStudForm">
+				<p><h2>Enrol a Student</h2></p>
+				<div class="leftSide">
+					Student Number:
+					<input type = "text" name = "studNumber" id="searchStudNumber" maxlength = "7" size = "9" class="textbox">
+					<input type = "button" value = "SEARCH" id="searchStud" class="searchButton">
+					&nbsp&nbsp&nbsp&nbsp&nbspS.Y.:
+					<input type = "text" id="schoolYear" size = "9" class="textbox">
+				</div>
+				<p></p>
+				<div class="rightSide">
+					Reg. No.:
+					<input type = "text" name = "regNo" size = "14" class="textbox">
+					<p></p>
+					Date:
+					<input type = "text" id="currentDate" class="textbox">
+				</div>
+				<p></p>
+				<div class="leftSide">
+					Name of Student:
+					<input type = "text" name = "studLastName" id="studLastName" size = "20" class="textbox">
+					<input type = "text" name = "studFirstName" id="studFirstName" size = "20" class="textbox">
+					<input type = "text" name = "studMI" id="studMI" size = "2" class="textbox">&nbsp&nbsp&nbsp&nbsp
+				</div>
+				<div class="rightSide">
+					Grade Level:
+					<input type = "text" name = "gradeLevel" id="gradeLevel" size = "7" class="textbox">
+				</select>
+			</div>
+			<p></p>
+			Mode of Payment
+			<input type = "radio" name = "mopCheck" value = "mop">Plan A
+			<input type = "radio" name = "mopCheck" value = "mop">Plan B
+			<input type = "radio" name = "mopCheck" value = "mop">Plan C
+			<input type = "radio" name = "mopCheck" value = "mop">Plan D
+			<p></p>
+			<div id="fees">
+				<div class="leftSide">
+					<h4>TOTAL AMOUNT DUE FOR THE YEAR..............................</h4>
+				</div>
+				<div class="rightSide">
+					<h4><input type = "text" name = "totalDue" size = "15" class="textbox"></h4>
+				</div>
+				<p></p>
+				<div class="feesLSide">
+					Tuition Fee................................................................................
+				</div>
+				<div class="rightSide">
+					<input type = "text" name = "tuitionFee" size = "15" class="textbox">
+				</div>
+				<div class="feesLSide">
+					Miscellaneous Fees...................................................................
+				</div>
+				<div class="rightSide">
+					<input type = "text" name = "miscFee" size = "15" class="textbox">
+				</div>
+				<div class="breakdown">
+					Registration Fee<br>Library Fee<br>Athletic Fee<br>Medical and Dental Fee<br>Classroom Materials<br>Development and Maintenance<br>Computer and Internet<br>Audio Visual<br>Insurance Fee<br>Laboratory<br>
+				</div>
+				<div class="feesLSide">
+					Other Fees................................................................................
+				</div>
+				<div class="rightSide">
+					<input type = "text" name = "otherFee" size = "15" class="textbox">
+				</div>
+				<div class="breakdown">
+					Energy Fee<br>Educational Tour(PARTIAL)<br>
+				</div>
+				<p></p>
+				<div class = less>
+					<p>Less:</p>
+					<div class="lessLeft">
+						RESERVATION............................................................
+					</div>
+					<div class="lessRight">
+						<input type = "text" name = "reservation" size = "15" class="textbox">
+					</div>
+					<div class="lessLeft">
+						DISCOUNT...................................................................
+					</div>
+					<div class="lessRight">
+						<input type = "text" name = "discount" size = "15" class="textbox">
+					</div>
+				</div>
+				<p></p>
+				<div class="leftSide">
+					<h4>TOTAL (Upon Enrolment)........................................................</h4>
+				</div>
+				<div class="rightSide">
+					<h4><input type = "text" name = "totalUE" size = "15" class="textbox"></h4>
+				</div>
+				<div class="leftSide">
+					<h4>Books and Notebooks..................................................................</h4>
+				</div>
+				<div class="rightSide">
+					<h4><input type = "text" name = "bksNtbks" size = "15" class="textbox"></h4>
+				</div>
+				<br>
+				<div id="agreement">
+					<p>&nbsp&nbsp&nbsp&nbsp&nbspI hereby agree to pay this school the total fees for my child's enrolment as per agreement of payment stipulated above.</p>
+				</div>
+			</div>
+		</form>

@@ -1,5 +1,11 @@
-var http = require('http');
+var https = require('https');
 var url = require('url');
+var fs = require('fs');
+
+var options = {
+  key: fs.readFileSync('privateKey.key'),
+  cert: fs.readFileSync('certificate.crt')
+};
 
 module.exports = function(){
   var v = {}
@@ -19,7 +25,7 @@ module.exports = function(){
     v.putHandlers[path] = handler;
   };
   v.listen = function(port){
-    server = http.createServer(function(req, res){
+    server = https.createServer(options, function(req, res){
       res.send = function(code, type, text){
         res.writeHead(code, {'Content-Type' : type});
         res.end(text);

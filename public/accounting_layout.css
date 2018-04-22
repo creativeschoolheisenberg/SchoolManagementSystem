@@ -1,10 +1,12 @@
-#sidebar {
+.sidebar {
 	left: 0px;
 }
-#sidebar > p {
+
+.sidebar > p {
 	text-align: center;
 }
-#content {
+
+#content, #fessCont {
 	margin: auto;
 	overflow: hidden;
 	position: fixed;
@@ -12,67 +14,19 @@
 	margin-bottom: 24px; margin-top: 0px;
 	font-family: arial;
 }
+
 #content > p {
 	text-align: justify;
 }
-.lessLeft {
-	font-size: 16px;
+
+#installmentHeader {
+	font-size: 22px;
 }
-.less {
-	margin-left: 80px;
-}
-.feesLSide, .lessLeft {
-	margin-left: 25px;
-}
-.leftSide, .feesLSide, .lessLeft {
-	float: left;
-	align-items: justify;
-}
-.rightSide {
-	margin-left: 550px;
-}
-.lessRight {
-	margin-left: 400px;
-}
-h4 {
-	margin: 0px;
-}
-#fees {
-	margin-left: 50px;
-}
-.breakdown {
-	margin-left: 50px;
-}
-#agreement {
-	width: 55%;
-}
-.docSide {
-	padding: 0px;
-	margin-top: 0px;
-	margin-left: 550px;
-}
-#regStudForm, #enrolStudForm, #enroledStudsForm {
-	font: arial; font-size: 18px; margin-left: 30px;
-}
-p, #regStudForm > p, #enrolStudForm > p, #enroledStudsForm{
-	font: Arial; font-size: 16px; font-weight: bold; color: #003A21;
-}
-.formButton {
-	float: right;
-	margin: 5px;
-}
-.textbox {
-	font: arial; font-size: 18px;
-}
-.rTextbox {
-	float: right;
-	margin: 5px;
-	margin-bottom: 10px;
-	font: arial; font-size: 18px;
-}
-#blank {
+
+.blank {
 	display: block;
 }
+
 @media only screen and (min-width: 600px) {
 	#content {
 		top: 64px; bottom: 32px;
@@ -81,7 +35,7 @@ p, #regStudForm > p, #enrolStudForm > p, #enroledStudsForm{
 		position: fixed;
 		overflow: scroll; overflow-x: hidden;
 	}
-	#sidebar {
+	.sidebar {
 		display: block;
 		position: fixed;
 		top: 64px;
@@ -94,6 +48,7 @@ p, #regStudForm > p, #enrolStudForm > p, #enroledStudsForm{
 		display: inline-block;
 	}
 }
+
 @media only screen and (max-width: 599px) {
 	#backImage {
 		width: 90%; height: 90%
@@ -109,7 +64,7 @@ p, #regStudForm > p, #enrolStudForm > p, #enroledStudsForm{
 		margin: auto;
 		padding: 15px;
 	}
-	#sidebar {
+	.sidebar {
 		position: relative;
 		left: 0; right: 0;
 	}
@@ -123,26 +78,107 @@ p, #regStudForm > p, #enrolStudForm > p, #enroledStudsForm{
 		}	
 	}
 }
-a.button, .formButton, .searchButton {
-	background: -webkit-linear-gradient(top, #208D93, #6BEBFF);
-	background: -moz-linear-gradient(top, #208D93, #6BEBFF);
-	background: -ms-linear-gradient(top, #208D93, #6BEBFF);
-	background: -o-linear-gradient(top, #208D93, #6BEBFF);
-	background: linear-gradient(bottom, #208D93, #6BEBFF);
-	border-radius: 8px; border: 1px solid #444444;
-	box-shadow: 0px 1px 1px #888888 inset, 1px 1px 3px #222222;
-	color: white; text-decoration: none;
-	text-align: center; padding: 16px 32px 16px 32px;
-	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4);
-	font-family: arial;
+
+.pageHeader {
+	display: table;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
 }
-.formButton, .searchButton {
+
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	background: #333;
+	margin: 5px 10px;
 	border-radius: 4px;
-	padding: 8px 16px 8px 16px;
+	position: relative;
 }
-a.button:hover, .formButton:hover, .searchButton:hover {
-	background: #AB9995; color: white;
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
-a.button:active, .formButton:active, .searchButton:active {
-	background: #AB9995;
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.column-05 {
+	text-align: right;
+	float: left;
+	width: 5%;
+	margin-top: 6px;
+}
+
+.column-10 {
+	text-align: right;
+	float: left;
+	width: 10%;
+	margin-top: 6px;
+}
+
+.column-15 {
+	float: left;
+	width: 15%;
+	margin-top: 6px;
+}
+
+.column-20 {
+	float: left;
+	width: 20%;
+	margin-top: 6px;
+}
+
+.column-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.column-30 {
+	float: left;
+	width: 30%;
+	margin-top: 6px;
+}
+
+.column-70 {
+	float: left;
+	width: 70%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr.divider { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }

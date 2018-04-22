@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School Management System</title>
+	<meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1" />
+	<link rel = "stylesheet" type = "text/css" href="common_layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="table-sidebar-layout.css" />
+	<link rel = "stylesheet" type = "text/css" href="button-layout.css" />
+	<script src = "creative-student-profile.js"></script>
+	<script src = "admission.js"></script>
+	<script src = "logout.js"></script>
+	<script>
+		window.onload = function() {
+			var date = new Date();
+			document.getElementById("schoolYear").value = determineSchoolYear(date.getMonth(), date.getFullYear());
+			var div = document.getElementById('logoutButton');
+			div.value=localStorage.getItem("username");
+			div.onclick = function() {
+				logout("/logout");
+			};
+		};
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div id="name">Centre for Creative Learners</div>
+		<div id="menu" class="hiddenMenu">
+			<div id="menuButton"><a id="menuLink" href="#">MENU</a></div>
+			<div class="menuItem"><a href="/index">Home</a></div>
+			<div class="menuItem"><a href="/admission">Admission</a></div>
+			<div class="menuItem"><a href="/profile">Profile</a></div>
+			<div class="menuItem"><a href="/accounting">Accounting</a></div>
+			<div class="menuItem"><a href="/grading">Grading</a></div>
+			<div class="menuItem"><a href="/performing-arts">LCPA</a></div>
+			<div class="menuItem">
+				<label>S.Y.</label>
+				<select id="schoolYear">
+					<option value="2013-2014">2013 - 2014</option>
+					<option value="2014-2015">2014 - 2015</option>
+					<option value="2015-2016">2015 - 2016</option>
+					<option value="2016-2017">2016 - 2017</option>
+					<option value="2017-2018">2017 - 2018</option>
+					<option value="2018-2019">2018 - 2019</option>
+				</select>
+			</div>
+			<div class="menuItem"><input type = "button" value="LOGOUT" id="logoutButton" /></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+		<p><a href="/profile/creative-student-profile" class="button">Creative Students</a></p>
+		<p><a href="/profile/pre-nursery-profile" class="button">Pre Nursery Students</a></p>
+		<p><a href="/profile/lcpa-student-profile" class="button">LCPA Students</a></p>
+	</div>
+	<div id="content">
+		<div class="blank">
+		</div>
+		<div id="searchContainer">	
+			<div class="row">
+				<div class="column-15">
+					<label for="searchStudentNumber">Student Number</label>
+				</div>
+				<div class="column-15">
+					<input type="text" id="searchStudentNumber" name="Student Number">
+				</div>
+				<div class="column-10">
+					<input type = "button" onclick="searchStudent('creative')" value = "SEARCH" id="searchstud" class="accbtn">
+				</div>
+			</div>
+		</div>
+		<div id="searchContent">
+			<div class="pageHeader">
+				<div class="row">
+					<div class="column-30">
+						
+					</div>
+					<div class="column-40">
+						<p><h2>STUDENT'S PROFILE</h2></p>
+					</div>
+					<div class="column-15">
+						
+					</div>
+					<div id="photo" class="column-15-photo">
+						<img id="imageData" src="/images/blank-photo.png" width="150" height="120" />	
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-70">
+						
+					</div>
+					<div class="column-15">
+						
+					</div>
+					<div id="photobtn" class="column-15-3">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div id="registration">
+					<form id="myForm">
+						<div class="row">
+							<div class="column-15">
+							</div>
+							<div class="column-25">
+								<input type="checkbox" id="birthCert">
+								<label for="birthcert">Birth Certificate</label>
+							</div>
+							<div class="column-25">
+								<input type="checkbox" id="form138E">
+								<label for="F138E">Form 138 - E</label>
+							</div>
+							<div class="column-25">
+								<input type="checkbox" id="form137E">
+								<label for="F137E">Form 137 - E</label>
+							</div>
+						</div>
+						<br>
+						<hr class="divider">
+						<!-- INSERT DIVIDER HERE -->
+						<div class="row">
+							<div class="column-30">
+								
+							</div>
+							<div class="column-40">
+								<p>Student's Information</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="studentnumber">Student Number</label>
+							</div>
+							<div class="column-15">
+								<input type="text" id="studentNumber">
+							</div>
+							<div class="column-15">
+								<label for="LRN">LRN</label>
+							</div>
+							<div class="column-15">
+								<input type="text" id="LRN" name="LRN">
+							</div>
+							<div class="column-15">
+								<label for="gradeLevel">Level</label>
+							</div>
+							<div class="column-15">
+								<input type="text" id="gradeLevel">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="lastName">Name of Student</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="lastName">
+							</div>
+							<div class="column-20">
+								<input type="text" id="firstName">
+							</div>
+							<div class="column-10">
+								<input type="text" id="middleName">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="nickname">Nickname</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="nickname">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="monthBirth">Date of Birth</label>
+							</div>
+							<div class="column-15">
+								<select id="monthBirth">
+									<option value = "jan">January</option>
+									<option value = "feb">February</option>
+									<option value = "mar">March</option>
+									<option value = "apr">April</option>
+									<option value = "may">May</option>
+									<option value = "jun">June</option>
+									<option value = "jul">July</option>
+									<option value = "aug">August</option>
+									<option value = "sept">September</option>
+									<option value = "oct">October</option>
+									<option value = "nov">November</option>
+									<option value = "dec">December</option>
+								</select>
+							</div>
+							<div class="column-05">
+								<input type="text" id="dayBirth">
+							</div>
+							<div class="column-10">
+								<input type="text" id="yearBirth">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="placebirth">Place of Birth</label>
+							</div>
+							<div class="column-20">
+								<input type = "text" id="placeOfBirth" name = "placeBirth">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="address">Address</label>
+							</div>
+							<div class="column-85">
+								<input type="text" id="address" name="address">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="contactNumber">Telephone</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="contactNumber" name="telno">
+							</div>
+							<div class="column-10">
+								
+							</div>
+							<div class="column-15-2">
+								<label for="gender">Gender</label>
+							</div>
+							<div class="column-10">
+								<select id="gender" name = "gender">
+									<option value="M">Male</option>
+									<option value="F">Female</option>
+								</select>
+							</div>
+						</div>
+						<br>
+						<hr class="divider">
+						<!-- INSERT DIVIDER HERE -->
+						<div class="row">
+							<div class="column-30">
+								
+							</div>
+							<div class="column-40">
+								<p>Parents' Information</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="momlastname">Mother's Name</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherLastName" name="motherlastname">
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherFirstName" name="motherfirstname">
+							</div>
+							<div class="column-10">
+								<input type="text" id="motherMiddleName" name="mothermiddlename">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="momoccupation">Occupation</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherOccupation" name="moccupation">
+							</div>
+							<div class="column-10">
+								
+							</div>
+							<div class="column-15-2">
+								<label for="mombusadd">Business Address</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherBusAdd" name="mother business address">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="momcellphone">Cellphone</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherCell" name="mcell">
+							</div>
+							<div class="column-10">
+								
+							</div>
+							<div class="column-15-2">
+								<label for="momemailadd">E-mail Address</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="motherEmail" name="memail">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="poplastname">Father's Name</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherLastName" name="fatherfirstname">
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherFirstName" name="fatherlastname">
+							</div>
+							<div class="column-10">
+								<input type="text" id="fatherMiddleName" name="fathermiddlename">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="popoccupation">Occupation</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherOccupation" name="fatheroccupation">
+							</div>
+							<div class="column-10">
+								
+							</div>
+							<div class="column-15-2">
+								<label for="popbusadd">Business Address</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherBusAdd" name="father business address">
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-15">
+								<label for="popcellphone">Cellphone</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherCell" name="fcell">
+							</div>
+							<div class="column-10">
+								
+							</div>
+							<div class="column-15-2">
+								<label for="popemailadd">E-mail Address</label>
+							</div>
+							<div class="column-20">
+								<input type="text" id="fatherEmail" name="femail">
+							</div>
+						</div>
+						<div id="siblinginformation">
+							<br>
+							<hr class="divider">
+							<div class="row">
+								<div class="column-30">
+									
+								</div>
+								<div class="column-40">
+									<p>Sibling's Information</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-15">
+									<label for="siblings">Number of Siblings:</label>
+								</div>
+								<div class="column-10">
+									<input type="text" id="siblings" class="siblings" name="siblings" onfocusout="generateSiblings(this.value)">
+								</div>
+							</div>
+						</div>
+						<div>
+							<br>
+							<hr class="divider">
+							<div class="row">
+								<div class="column-15">
+									<label>LEVEL</label>
+								</div>
+								<div class="column-60-2">
+									<label>APPLICANT'S PREVIOUS SCHOOL/S ATTENDED</label>
+								</div>
+								<div class="column-25">
+									<label>YEAR</label>
+								</div>
+							</div>
+							<button type="button" onclick="addSchool()">Add School</button>
+							<div class="row" id="previousschooling">
+							</div>
+						</div>
+						<div id="referals">
+							<br>
+							<hr class="divider">
+							<div class="row">
+								<div class="column-50">
+									<label>How did you find out about CREATIVE?</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-15">
+									<label for="referrerName">Referred by</label>
+								</div>
+								<div class="column-20">
+									<input type="text" id="referrerName" name="Referred by">
+								</div>
+								<div class="column-15">
+									<label for="relation">Relation</label>
+								</div>
+								<div class="column-20">
+									<input type="text" id="relation" name="relation">
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-15">
+									<label for="otherMeans">Other Means</label>
+								</div>
+								<div class="column-70">
+									<input type="text" id="otherMeans" name="Others" placeholder="Internet (CSPP Facebook Page) / Billboards and/or Tarpaulins / Leaflets / Others">
+								</div>
+							</div>
+						</div>
+					</form>
+					<div>
+						<button onclick = "updateProfile()" id="updateprofile" class="accbtn">update</button>
+						<button onclick = "editProfile()" id="editprofile" class="accbtn">edit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2016, Centre for Creative Learners<br>
+			931 Masaya St. United San Pedro Subd., Brgy. San Antonio, San Pedro 
+			Laguna, (02) 869-1123.</p>
+		</div>
+	</body>
+	</html>
+	
