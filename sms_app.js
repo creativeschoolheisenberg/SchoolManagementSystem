@@ -143,6 +143,10 @@ express.get("/profile/creative-student-profile", function (req, res) {
 	file.serveFile("creative-student-profile.html", 200, {}, req, res);
 })
 
+express.get("/profile/pre-nursery-profile", function (req, res) {
+	file.serveFile("pre-nursery-profile.html", 200, {}, req, res);
+})
+
 express.get("/profile/table-sidebar-layout.css", function (req, res) {
 	file.serveFile("/table-sidebar-layout.css", 200, {}, req, res);
 })
@@ -388,6 +392,19 @@ express.post("/searchStudent", function (req, res) {
 	});
 })
 
+express.post("/searchPreNursery", function (req, res) {
+	var data = "";
+	req.on('data', function (dd) {
+		data += dd.toString();
+	});
+	req.on('end', function () {
+		var qs = JSON.parse(data);
+		connectdb.searchPreNursery(qs, function(status) {
+			res.end(JSON.stringify(status), 200, 'application/json');
+		});
+	});
+})
+
 express.post("/searchLCPAStudent", function (req, res) {
 	var data = "";
 	req.on('data', function (dd) {
@@ -401,28 +418,28 @@ express.post("/searchLCPAStudent", function (req, res) {
 	});
 })
 
-express.post("/showStudent", function (req, res) {
-	console.log("SEARCHSTUDENT");
-	var data = "";
-	req.on('data', function (dd) {
-		data += dd.toString();
-	});
-	req.on('end', function () {
-		var qs = JSON.parse(data);
-		var dbStuds = new sqlite3.Database('CreativeStudents.db');
-		dbStuds.serialize(function () {
-			dbStuds.each("SELECT * FROM student_img WHERE StudentNumber = " + qs.searchStudNumber, function (err, row) {
-				if (err) throw err;
-				var status = {
-					"filename": row.filename,
-					"image": row.imagedata
-				}
-				res.end(JSON.stringify(status), 200, 'application/json');
-			});
-		});
-		dbStuds.close();
-	});
-})
+// express.post("/showStudent", function (req, res) {
+// 	console.log("SEARCHSTUDENT");
+// 	var data = "";
+// 	req.on('data', function (dd) {
+// 		data += dd.toString();
+// 	});
+// 	req.on('end', function () {
+// 		var qs = JSON.parse(data);
+// 		var dbStuds = new sqlite3.Database('CreativeStudents.db');
+// 		dbStuds.serialize(function () {
+// 			dbStuds.each("SELECT * FROM student_img WHERE StudentNumber = " + qs.searchStudNumber, function (err, row) {
+// 				if (err) throw err;
+// 				var status = {
+// 					"filename": row.filename,
+// 					"image": row.imagedata
+// 				}
+// 				res.end(JSON.stringify(status), 200, 'application/json');
+// 			});
+// 		});
+// 		dbStuds.close();
+// 	});
+// })
 
 express.post("/showFees", function (req, res) {
 	var data = "";

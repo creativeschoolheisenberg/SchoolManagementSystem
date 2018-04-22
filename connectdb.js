@@ -474,6 +474,62 @@ exports.searchStudent = function(data, callback) {
 	dbStuds.close();
 }
 
+exports.searchPreNursery = function(data, callback) {
+	var dbStuds = new sqlite3.Database('CreativeStudents.db');
+	dbStuds.serialize(function() {
+		dbStuds.get("SELECT * FROM pre_nursery_info WHERE LastName LIKE '" + data.lastName + "' AND FirstName LIKE '" + data.firstName + "%'", function(err, row) {
+			if (err) throw err;
+			var status = {};
+			if(row != undefined) {
+				status = {
+					"studentNumber": row.StudentNumber,
+					"imageData": row.ImageData,
+					"lastName": row.LastName,
+					"firstName": row.FirstName,
+					"middleName" : row.MiddleInitial,
+					"nickname": row.Nickname,
+					"gender": row.Gender,
+					"dateOfBirth": row.DateOfBirth,
+					"placeOfBirth": row.PlaceOfBirth,
+					"address": row.Address,
+					"contactNumber": row.ContactNumber,
+					"birthCert": row.BirthCertificate,
+					"registrationFee": row.Registration,
+					"motherLastName": row.MotherLastName,
+					"motherFirstName": row.MotherFirstName,
+					"motherMiddleInitial": row.MotherMiddleInitial,
+					"motherOccupation": row.MotherOccupation,
+					"motherBusAdd": row.MotherBusAdd,
+					"motherCell": row.MotherCell,
+					"motherEmail": row.MotherEmail,
+					"fatherLastName": row.FatherLastName,
+					"fatherFirstName": row.MotherFirstName,
+					"fatherMiddleInitial": row.FatherMiddleInitial,
+					"fatherOccupation": row.FatherOccupation,
+					"fatherBusAdd": row.FatherBusAdd,
+					"fatherCell": row.FatherCell,
+					"fatherEmail": row.FatherEmail,
+					"siblings": row.NumberOfSiblings,
+					"siblingName": row.SiblingName,
+					"siblingGender": row.SiblingGender,
+					"siblingAge": row.SiblingAge,
+					"siblingSchoolName": row.SiblingSchoolName,
+					"referrerName": row.ReferrerName,
+					"relation": row.Relation,
+					"otherMeans": row.OtherMeans
+				}
+			}
+			else {
+				status = {
+					"status": "error"
+				}
+			}
+			callback(status);
+		});
+	});
+	dbStuds.close();
+}
+
 exports.searchLCPAStudent = function(data, callback) {
 	var count = Object.keys(data).length;
 	var string = "";
