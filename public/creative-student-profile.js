@@ -115,7 +115,8 @@ function submitSearch(value, postMethod) {
 				document.getElementById('monthBirth').value = birth[0];
 				document.getElementById('dayBirth').value = birth[1];
 				document.getElementById('yearBirth').value = birth[2];
-				disableElements();
+				document.getElementById('studentNumber').focus();
+				stateOfElements(document.getElementById('myForm'), true);
 			}
 		}
 	};
@@ -145,6 +146,17 @@ function generatePreviousSchooling(elements) {
 	}
 }
 
-function disableElements() {
+function stateOfElements(form, state) {
 	// Still can't disable the elements inside the form
+    if(document.all || document.getElementById) {
+        for(i = 0; i < form.length; i++) {
+			var formElement = form.elements[i];
+			formElement.disabled = state;
+        }
+    }
+}
+
+function editProfile() {
+	stateOfElements(document.getElementById('myForm'), false);
+	document.getElementById('studentNumber').focus();
 }
