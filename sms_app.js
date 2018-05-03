@@ -171,6 +171,10 @@ express.get("/profile/logout.js", function (req, res) {
 	file.serveFile("logout.js", 200, {}, req, res);
 })
 
+express.get("/profile/takephoto.js", function (req, res) {
+	file.serveFile("takephoto.js", 200, {}, req, res);
+})
+
 express.get("/performing-arts/logout.js", function (req, res) {
 	file.serveFile("logout.js", 200, {}, req, res);
 })
@@ -299,6 +303,20 @@ express.post("/addCreativeStudent", function (req, res) {
 		res.writeHead(200, { "Content-Type": "text/plain" });
 		var qs = JSON.parse(data);
 		connectdb.addCreativeStudent(qs, function(status) {
+			res.end(JSON.stringify(status), 200, 'application/json');
+		})
+	});
+})
+
+express.put("/updateCreativeStudent", function (req, res) {
+	var data = "";
+	req.on('data', function (dd) {
+		data += dd.toString();
+	});
+	req.on('end', function () {
+		res.writeHead(200, { "Content-Type": "text/plain" });
+		var qs = JSON.parse(data);
+		connectdb.updateCreativeStudent(qs, function(status) {
 			res.end(JSON.stringify(status), 200, 'application/json');
 		})
 	});

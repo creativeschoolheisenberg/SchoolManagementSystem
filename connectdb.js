@@ -167,6 +167,46 @@ exports.addCreativeStudent = function(data, callback) {
 	});
 }
 
+exports.updateCreativeStudent = function(data, callback) {
+	var tablename = "student_info";
+	var dbname = "CreativeStudents.db";
+	generateStudentNumber(data.studentNumber, dbname, tablename, function(id) {
+		var dbStuds = new sqlite3.Database(dbname);
+		dbStuds.serialize(function () {
+			dbStuds.run("CREATE TABLE if not exists " + tablename + "(StudentNumber int primary key, LRN int, SchoolYear text, FileName text, ImageData blob, LastName text, FirstName text," +
+				"MiddleInitial char(2), Nickname text, GradeLevel char(7), Gender char(1), DateOfBirth date, PlaceOfBirth text, Address text, ContactNumber text," + 
+				"DateAdmitted date, BirthCertificate bit, Form138E bit, Form137E bit, Registration bit, MotherLastName text, MotherFirstName text, MotherMiddleInitial char(2)," +
+				"MotherOccupation text, MotherBusAdd text, MotherCell text, MotherEmail text, FatherLastName text, FatherFirstName text, FatherMiddleInitial char(2)," +
+				"FatherOccupation text, FatherBusAdd text, FatherCell text, FatherEmail text, PreviousGradeLevel text, PreviousSchoolName text, PreviousYear text," +
+				"NumberOfSiblings int, SiblingName text, SiblingGender text, SiblingAge text, SiblingSchoolName text, ReferrerName text, Relation text, OtherMeans text)");
+			var studIns = dbStuds.prepare("INSERT INTO " + tablename + " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?," +
+				"?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+			studIns.run(id, data.LRN, data.schoolYear, data.filename, data.base64, data.lastName, data.firstName, data.middleName, data.nickname, data.gradeLevel, data.gender, 
+				data.month + "/" + data.day + "/" + data.year, data.placeBirth, data.address, data.contactNumber, data.dateAdmitted, data.birthCert, data.F138E, data.F137E, 
+				data.registered, data.momLastName, data.momFirstName, data.momMiddleName, data.momOccupation, data.momBusAdd, data.momCellphone, data.momEmailAdd, 
+				data.popLastName, data.popFirstName, data.popMiddleName, data.popOccupation, data.popBusAdd, data.popCellphone, data.popEmailAdd, data.prevLevel, 
+				data.prevSchool, data.prevYear, data.siblings, data.siblingName, data.siblingGender, data.siblingAge, data.siblingSchool, data.referrerName, 
+				data.relation, data.otherMeans);
+			studIns.finalize();
+			dbStuds.each("SELECT StudentNumber FROM " + tablename + " WHERE StudentNumber = " + id, function (err, row) {
+				var status = {};
+				if(row.StudentNumber != null) {
+					status = {
+						"status" : "ok"
+					}
+				}
+				else {
+					status = {
+						"status" : "error"
+					}
+				}
+				callback(status);
+			});
+		});
+		dbStuds.close();
+	});
+}
+
 exports.addLCPAStudent = function(data, callback) {
 	var tablename = "lcpa_student_info";
 	var dbname = "LCPAStudents.db"

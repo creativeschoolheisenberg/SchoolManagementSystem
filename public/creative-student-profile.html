@@ -9,6 +9,7 @@
 	<script src = "creative-student-profile.js"></script>
 	<script src = "admission.js"></script>
 	<script src = "logout.js"></script>
+	<script src = "takephoto.js"></script>
 	<script>
 		window.onload = function() {
 			var date = new Date();
@@ -80,8 +81,13 @@
 					<div class="column-15">
 						
 					</div>
-					<div id="photo" class="column-15-photo">
+					<!-- <div id="photo" class="column-15-photo">
 						<img id="imageData" src="/images/blank-photo.png" width="150" height="120" />	
+					</div> -->
+					<div id="photo" class="column-15-photo">
+						<button onclick="openCamera()" id="camera" disabled>
+							<img id="imageData" src="/images/blank-photo.png" width="150" height="120"/>	
+						</button>
 					</div>
 				</div>
 				<div class="row">
@@ -127,7 +133,7 @@
 						</div>
 						<div class="row">
 							<div class="column-15">
-								<label for="studentnumber">Student Number</label>
+								<label for="studentNumber">Student Number</label>
 							</div>
 							<div class="column-15">
 								<input type="text" id="studentNumber">
